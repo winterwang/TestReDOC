@@ -93,7 +93,7 @@ We aimed to decribe the relationship between food groups and the time of day whe
 ## METHODS 
 
 
-6802 adults (2810 men and 3992 women) and 749,026 food recordings collected by the UK National Diet and Nutrition Survey Rolling Programme (NDNS RP 2008-17) were analyzed [@MRCElsieWiddowsonLaboratory2018]. The sample was randomly drawn from a list of all addresses in the UK, clustered into postcode sectors. Further details of the rationale, design and methods of the survey can be found elsewhere [@bates2014national; @roberts2018national]. Time of the day was categorized as 7 slots: 6-9 am, 9-12 noon, 12-2 pm, 2-5 pm, 5-8 pm, and 10 pm - 6 am. Foods recorded were also classified into 60 standard food groups [literature]. 
+6802 adults (2810 men and 3992 women) and 749,026 food recordings collected by the UK National Diet and Nutrition Survey Rolling Programme (NDNS RP 2008-17) were analyzed [@MRCElsieWiddowsonLaboratory2018]. The sample was randomly drawn from a list of all addresses in the UK, clustered into postcode sectors. Further details of the rationale, design and methods of the survey can be found elsewhere [@bates2014national; @roberts2018national]. Time of the day was categorized as 7 slots: 6-9 am, 9-12 noon, 12-2 pm, 2-5 pm, 5-8 pm, and 10 pm - 6 am. Foods recorded were also classified into 60 standard food groups with 1 to 10 subgroups each: the details are given in Appendix R of the NDNS offical report [@NDNSdatabase2018]. We focused on the 60 standard food groups in the current analysis.  
 
 
 
