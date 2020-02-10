@@ -1199,12 +1199,4 @@ Full funding sources listed at the end of the paper (see Acknowledgments).},
   timestamp     = {2020-02-08},
 }
 
-@Book{greenacre2017correspondence,
-  title     = {Correspondence analysis in practice},
-  publisher = {Chapman and Hall/CRC},
-  year      = {2017},
-  author    = {Greenacre, Michael},
-  timestamp = {2020-02-08},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
