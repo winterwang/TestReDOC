@@ -1227,4 +1227,42 @@ Full funding sources listed at the end of the paper (see Acknowledgments).},
   url    = {https://CRAN.R-project.org/package=factoextra},
 }
 
+@Manual{Rcoreteam,
+  title        = {R: A Language and Environment for Statistical Computing},
+  author       = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  address      = {Vienna, Austria},
+  year         = {2019},
+  url          = {https://www.R-project.org/},
+}
+
+@Manual{ggrepel,
+  title     = {ggrepel: Automatically Position Non-Overlapping Text Labels with 'ggplot2'},
+  author    = {Kamil Slowikowski},
+  year      = {2019},
+  note      = {R package version 0.8.1},
+  timestamp = {2020-02-10},
+  url       = {https://CRAN.R-project.org/package=ggrepel},
+}
+
+@Book{ggplot2,
+  title     = {ggplot2: Elegant Graphics for Data Analysis},
+  publisher = {Springer-Verlag New York},
+  year      = {2016},
+  author    = {Hadley Wickham},
+  isbn      = {978-3-319-24277-4},
+  timestamp = {2020-02-10},
+  url       = {https://ggplot2.tidyverse.org},
+}
+
+@Book{SAS94,
+  title     = {SAS 9.4 Language Reference: Concepts},
+  publisher = {SAS Institute Inc.},
+  year      = {2013},
+  author    = {SAS Institute},
+  address   = {USA},
+  isbn      = {1612905641},
+  timestamp = {2020-02-10},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
