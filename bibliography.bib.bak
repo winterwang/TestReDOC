@@ -1265,4 +1265,23 @@ Full funding sources listed at the end of the paper (see Acknowledgments).},
   timestamp = {2020-02-10},
 }
 
+@Book{rose2005national,
+  title     = {The National Statistics Socio-economic Classification: origins, development and use},
+  year      = {2005},
+  author    = {Rose, David and Pevalin, David J},
+  timestamp = {2020-02-10},
+}
+
+@Article{xiao2019meal,
+  author    = {Xiao, Qian and Garaulet, Marta and Scheer, Frank AJL},
+  title     = {Meal timing and obesity: Interactions with macronutrient intake and chronotype},
+  journal   = {International Journal of Obesity},
+  year      = {2019},
+  volume    = {43},
+  number    = {9},
+  pages     = {1701--1711},
+  publisher = {Nature Publishing Group},
+  timestamp = {2020-02-12},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
