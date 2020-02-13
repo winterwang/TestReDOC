@@ -1,0 +1,56 @@
+---
+title: ""
+output: 
+  word_document
+---
+
+```{r defineFunctions, echo=FALSE}
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+```
+
+
+```{r echo=FALSE, message=FALSE}
+Table_nums <- captioner::captioner(prefix = "TABLE. ")
+T.ref <- function(x) {
+  stringr::str_extract(Table_nums(x), "[^:]*")
+}
+
+Table.1_cap <- Table_nums(name = "Tab1", 
+                        caption = "The numbers of food recordings contributed to the total calories consumed by adults in the UK adults. (NDNS RP 2008-2017).")
+# Table.2_cap <- Table_nums(name = "Tab2",
+#                         caption = "Weighted means, percentages (95% CIs) of the characteristics by latent class memberships in the UK adults.
+# (NDNS RP 2008/09-2015/16, sample size = 6155)")
+# Table.3_cap <- Table_nums(name = "Tab3", 
+#                           caption = "Associations of moderate/high carbohydrate eating patterns versus low on hypertension, BMI, and WC in UK adults, with or without diabetes.
+# (NDNS RP 2008/09-2015/16, sample size = 6155)")
+
+```
+
+Table 1. The numbers of food recordings contributed to the total calories consumed by adults in the UK adults. (NDNS RP 2008-2017).
+```{r Tab1, message=FALSE, echo=FALSE, fig.cap=Table.1_cap}
+library(magrittr)
+library(flextable)
+library(officer)
+dt <- read.csv("table/TableFoodGroup.csv", header = T, row.names = NULL, colClasses = "character")
+names(dt) <- c(" ", "n", "Calories", "Relative Prop", "Cal Prop", "Cal Cum Prop")
+
+myft <- regulartable(dt)
+myft <- bold(myft, part = "header") # bold header
+myft <- fontsize(myft, part = "header", size = 10) 
+myft <- fontsize(myft, part = "body", size = 8) 
+
+myft <- align( myft, align = "center", part = "all")
+myft <- autofit(myft)
+myft <- merge_h(myft, part = "header")
+myft <- merge_v(myft, part = "header")
+myft <- font(myft, part = "all", fontname = "Times")
+myft
+```
+
+
+
+
