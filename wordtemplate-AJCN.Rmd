@@ -56,7 +56,7 @@ Short running head: Time of food consumption by diabetes status.
 
 ## INTRODUCTION
 
-The timing of energy intake has been shown to be associated with obesity and diabetes. [@almoosawi2016chrono] 
+The timing of energy intake has been shown to be associated with obesity and diabetes. [@almoosawi2016chrono] Specifically, eating late at night or having a late dinner were found to be related to higher risk of obesity [@xiao2019meal;@yoshida2018association],  hyperglycemia [@nakajima2015association], metabolic syndrome [@kutsuma2014potential], diabetes [@mattson2014meal], and poorer glycemic control among diabetics [@sakai2017late]. However, the relationship between food choice and their time of being consumed during the time of day is left largely unknown. Shiftworkers have an increased risk of obesity [@balieiro2014nutritional;@barbadoro2013rotating], and diabetes [@pan2011rotating], probably due to limited availability of healthy food choice during their night shifts [@bonnell2017influences;@balieiro2014nutritional]. Identifying those food that might be chosen during late night time would be helpful when guiding people to change their eating habit for the purpose of either weight losing or maintaining glycemic control. Dietary diary recordings from national surveys provided detailed food choice data for exploration of relationships between food groups and their time of consumption in general population.
 
 We aimed to decribe the relationship between food groups and the time of day when they were consumed, and how such relationships may vary by status of type 2 diabetes.
 

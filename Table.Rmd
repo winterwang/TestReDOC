@@ -1,7 +1,8 @@
 ---
 title: ""
 output: 
-  word_document
+  word_document:
+    reference_docx: templatetabfig.docx
 ---
 
 ```{r defineFunctions, echo=FALSE}
@@ -31,6 +32,7 @@ Table.1_cap <- Table_nums(name = "Tab1",
 ```
 
 Table 1. The numbers of food recordings contributed to the total calories consumed by adults in the UK adults. (NDNS RP 2008-2017).
+
 ```{r Tab1, message=FALSE, echo=FALSE, fig.cap=Table.1_cap}
 library(magrittr)
 library(flextable)
@@ -52,5 +54,40 @@ myft
 ```
 
 
+
+
+
+
+
+
+#####
+
+
+
+Table 2. Odds ratio (99% confidence intervals) for foog groups eaten at night (8 pm - 6 am) vs. earlier time in the day, among total and according to different diabetes status, NDNS RP 2008-2017.					
+
+```{r Tab2, message=FALSE, echo=FALSE}
+library(magrittr)
+library(flextable)
+library(officer)
+dt <- read.csv("table/FoodTimeDM.csv", header = T, row.names = NULL, colClasses = "character")
+# names(dt) <- c(" ", "n", "Calories", "Relative Prop", "Cal Prop", "Cal Cum Prop")
+
+myft <- regulartable(dt)
+myft <- bold(myft, part = "header") # bold header
+myft <- fontsize(myft, part = "header", size = 10) 
+myft <- fontsize(myft, part = "body", size = 8) 
+
+myft <- align( myft, align = "center", part = "all")
+myft <- autofit(myft)
+myft <- merge_h(myft, part = "header")
+myft <- merge_v(myft, part = "header")
+
+myft <- add_footer(myft, Food.group = "Logisitic regression models with GEE were adjusted for age, sex, and social-economic levels.")
+myft <- merge_at(myft, i = 1, j = 1:6, part = "footer")
+myft <- font(myft, part = "all", fontname = "Times")
+
+myft
+```
 
 
