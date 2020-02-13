@@ -29,7 +29,7 @@ Present address for L.P.: Department of Medical Statistics, London School of Hyg
 
 Sources of Support: This work was supported by Grants-in-Aid for Young Scientists (grant number 19K20199 to C.W.) from the Japan Society for the Promotion of Science (JSPS).
 
-Short running head: Time of food consumption by diabetes status.  
+Short running head: Food groups and time of consumption.  
 
 <span class="redoc" id="redoc-htmlcomment-1"><!-- #####  --></span>
 
@@ -57,7 +57,7 @@ Short running head: Time of food consumption by diabetes status.
 
 ## INTRODUCTION
 
-The timing of energy intake has been shown to be associated with obesity and diabetes. <span class="redoc" id="redoc-citation-1">[@almoosawi2016chrono]</span> Specifically, eating late at night or having a late dinner were found to be related to higher risk of obesity <span class="redoc" id="redoc-citation-2">[@xiao2019meal;@yoshida2018association]</span>,  hyperglycemia <span class="redoc" id="redoc-citation-3">[@nakajima2015association]</span>, metabolic syndrome <span class="redoc" id="redoc-citation-4">[@kutsuma2014potential]</span>, diabetes <span class="redoc" id="redoc-citation-5">[@mattson2014meal]</span>, and poorer glycemic control among diabetics <span class="redoc" id="redoc-citation-6">[@sakai2017late]</span>. However, the relationship between food choice and their time of being consumed during the time of day is left largely unknown. Shiftworkers have an increased risk of obesity <span class="redoc" id="redoc-citation-7">[@balieiro2014nutritional;@barbadoro2013rotating]</span>, and diabetes <span class="redoc" id="redoc-citation-8">[@pan2011rotating]</span>, probably due to limited availability of healthy food choice during their night shifts <span class="redoc" id="redoc-citation-9">[@bonnell2017influences;@balieiro2014nutritional]</span>. Identifying those food that might be chosen during late night time would be helpful when guiding people to change their eating habit for the purpose of either weight losing or maintaining glycemic control. Dietary diary recordings from national surveys provided detailed food choice data for exploration of relationships between food groups and their time of consumption in general population.
+The timing of energy intake has been shown to be associated with obesity and diabetes. <span class="redoc" id="redoc-citation-1">[@almoosawi2016chrono]</span> Specifically, eating late at night or having a late dinner was found to be related to higher risk of obesity <span class="redoc" id="redoc-citation-2">[@xiao2019meal;@yoshida2018association]</span>,  hyperglycemia <span class="redoc" id="redoc-citation-3">[@nakajima2015association]</span>, metabolic syndrome <span class="redoc" id="redoc-citation-4">[@kutsuma2014potential]</span>, diabetes <span class="redoc" id="redoc-citation-5">[@mattson2014meal]</span>, and poorer glycemic control among diabetics <span class="redoc" id="redoc-citation-6">[@sakai2017late]</span>. However, the relationship between food choice and their time of being consumed during the time of day is left largely unknown. Shiftworkers have an increased risk of obesity <span class="redoc" id="redoc-citation-7">[@balieiro2014nutritional;@barbadoro2013rotating]</span>, and diabetes <span class="redoc" id="redoc-citation-8">[@pan2011rotating]</span>, probably due to limited availability of healthy food choice during their night shifts <span class="redoc" id="redoc-citation-9">[@bonnell2017influences;@balieiro2014nutritional]</span>. Identifying those unhealthy foods that might be chosen during late night time would be helpful when guiding people to change their eating habit for the purpose of either weight losing or maintaining glycemic control. Dietary diary recordings from national surveys provided detailed food choice data for exploration of relationships between food groups and their time of consumption in general population.
 
 We aimed to decribe the relationship between food groups and the time of day when they were consumed, and how such relationships may vary by status of type 2 diabetes.
 
@@ -102,6 +102,11 @@ The listed food groups were found to be consumed during time between 8 pm and 6 
  
 
 ## DISCUSSION 
+
+The present study described the potential relationships between food groups and time of their consumption in a representative sample from the NDNS RP. All unhealthy foods emerged from CA were found to be more likely to be consumed after 8 pm. These included alcoholic/sweetened beverages, chocolates and other foods rich in added sugars and saturated fats such as biscuits and ice cream. Foods chosen in the evening/night time slots tend to be highly processed and easily accessible. Specifically, undiagnosed patients might be at a higher risk of worsening their condition as they were found to have higher odds to choose a number of less healthy foods after 8 pm (sugar confectioneries, regular soft drinks) compared to earlier time than diabetics and non-diabetics. Those food might need to be targeted when designing intervention to those who might be at risk of being diabetics. On the other hand, diabete patients were found to be controlling their choice of food groups such as avoiding puddings at night. However, higher odds of consuming alcoholic beverages and energy condensed foods such as chocolates and sugar confectioneries at night among diabetics suggested that their food choice might need further modifications. 
+
+
+Assessing the relationships between food groups and timing of eating would be considered as a first step towards indentifying specific public health targets for behavior change/intervention. Previous evidence also found that both sweetened and alcoholic beverages are responsibile for large portion of energy consumption at night <span class="redoc" id="redoc-citation-18">[@Hassen2018]</span>. 
 
 
 ### Conclusions
