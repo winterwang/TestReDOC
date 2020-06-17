@@ -1192,11 +1192,10 @@ Full funding sources listed at the end of the paper (see Acknowledgments).},
 }
 
 @Article{Chapman2017,
-  author        = {Chapman, Andrew N and Beh, Eric J and Palla, Luigi},
-  title         = {Application of Correspondence Analysis to Graphically Investigate Associations Between Foods and Eating Locations.},
-  year          = {2017},
-  __markedentry = {[wangcc.me:]},
-  timestamp     = {2020-02-13},
+  author    = {Chapman, Andrew N and Beh, Eric J and Palla, Luigi},
+  title     = {Application of Correspondence Analysis to Graphically Investigate Associations Between Foods and Eating Locations.},
+  year      = {2017},
+  timestamp = {2020-03-02},
 }
 
 @Book{greenacre2017correspondence,
@@ -1384,16 +1383,43 @@ Full funding sources listed at the end of the paper (see Acknowledgments).},
 }
 
 @Article{Hassen2018,
-  author        = {Hassen, Wendy Si and Castetbon, Katia and Tichit, Christine and P{\'e}neau, Sandrine and Nechba, Anouar and Ducrot, Pauline and Lampur{\'e}, Aur{\'e}lie and Bellisle, France and Hercberg, Serge and M{\'e}jean, Caroline},
-  title         = {Energy, nutrient and food content of snacks in French adults},
-  journal       = {Nutrition journal},
-  year          = {2018},
-  volume        = {17},
+  author    = {Hassen, Wendy Si and Castetbon, Katia and Tichit, Christine and P{\'e}neau, Sandrine and Nechba, Anouar and Ducrot, Pauline and Lampur{\'e}, Aur{\'e}lie and Bellisle, France and Hercberg, Serge and M{\'e}jean, Caroline},
+  title     = {Energy, nutrient and food content of snacks in French adults},
+  journal   = {Nutrition journal},
+  year      = {2018},
+  volume    = {17},
+  number    = {1},
+  pages     = {33},
+  file      = {:/Users/wangcc.me/pCloud Drive/pCloud Sync/JabRef/pdfpapers/SiHassen2018_Article_EnergyNutrientAndFoodContentOf.pdf:PDF},
+  publisher = {BioMed Central},
+  timestamp = {2020-03-02},
+}
+
+@Article{Zeron-Rugerio2019,
+  author        = {Zer{\'o}n-Rugerio, Mar{\'\i}a Fernanda and Hern{\'a}ez, {\'A}lvaro and Porras-Loaiza, Armida Patricia and Cambras, Trinitat and Izquierdo-Pulido, Maria},
+  title         = {Eating Jet Lag: A Marker of the Variability in Meal Timing and Its Association with Body Mass Index},
+  journal       = {Nutrients},
+  year          = {2019},
+  volume        = {11},
+  number        = {12},
+  pages         = {2980},
+  __markedentry = {[wangcc.me:]},
+  file          = {:/Users/wangcc.me/pCloud Drive/pCloud Sync/JabRef/pdfpapers/nutrients-11-02980.pdf:PDF},
+  publisher     = {Multidisciplinary Digital Publishing Institute},
+  timestamp     = {2020-03-02},
+}
+
+@Article{Henry2020,
+  author        = {Henry, Christiani Jeyakumar and Kaur, Bhupinder and Quek, Rina Yu Chin},
+  title         = {Chrononutrition in the management of diabetes},
+  journal       = {Nutrition \& Diabetes},
+  year          = {2020},
+  volume        = {10},
   number        = {1},
-  pages         = {33},
+  pages         = {1--11},
   __markedentry = {[wangcc.me:6]},
-  publisher     = {BioMed Central},
-  timestamp     = {2020-02-13},
+  publisher     = {Nature Publishing Group},
+  timestamp     = {2020-03-02},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
