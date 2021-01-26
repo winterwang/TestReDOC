@@ -1,0 +1,697 @@
+---
+title: Relationships between food groups, eating time slots and diabetes status in
+  adults from the UK National Diet and Nutrition Survey (2008–2017)
+author: Chaochen Wang^1^, Suzana Almoosawi^2^, Luigi Palla^3^
+output:
+  redoc::redoc:
+    margins: 1.0
+    line_numbers: yes
+    keep_md: yes
+    highlight_outputs: no
+    reference_docx: templateAJCN.docx
+bibliography: bibliography.bib
+csl: the-american-journal-of-clinical-nutrition.csl
+---
+Relationships between food groups, eating time slots and diabetes status in
+adults from the UK National Diet and Nutrition Survey (2008--2017)
+
+Chaochen Wang^1^, Suzana Almoosawi^2^, Luigi Palla^3[,4]{.insertion
+author="Luigi Palla" date="2020-09-07T09:35:00Z"}[,5]{.insertion
+author="Luigi Palla" date="2021-01-18T12:11:00Z"}^
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+1.  Department of Public Health, Aichi Medical University, Nagakute, Aichi,
+    JAPAN (C.W.);
+
+2.  [Brain, Performance and Nutrition Research Centre, Northumbria University,
+    Newcastle, UK (S.A.);]{.deletion author="Luigi Palla"
+    date="2020-09-07T09:35:00Z"}[Suzana pls insert detailed
+    affiliation]{.comment-start id="4" author="Luigi Palla"
+    date="2021-01-18T12:13:00Z"}[I]{.insertion author="Luigi Palla"
+    date="2020-09-07T09:36:00Z"}[mperial College London]{.insertion
+    author="Luigi Palla" date="2021-01-18T12:13:00Z"}
+
+3.  [Department of Public Health and Infectious Diseases, University of Rome La
+    Sapienza, Rome, Italy (L.P.)]{.insertion author="Luigi Palla"
+    date="2021-01-18T12:11:00Z"}[]{.paragraph-insertion author="Luigi Palla"
+    date="2021-01-18T12:11:00Z"}
+
+4.  Department of Medical Statistics, London School of Hygiene & Tropical
+    Medicine, London, UK [(L.P.)]{.deletion author="Luigi Palla"
+    date="2021-01-18T12:12:00Z"}[]{.paragraph-insertion author="Luigi Palla"
+    date="2020-09-07T09:36:00Z"}
+
+5.  [Department of Global Health, School of Tropical Medicine and Global Health,
+    University]{.insertion author="Luigi Palla" date="2020-09-07T09:36:00Z"} [of
+    Nagasaki, Nagasaki, Japan]{.insertion author="Luigi Palla"
+    date="2020-09-07T09:37:00Z"}
+
+Corresponding Author: Luigi Palla
+
+Present address for L.P.: Department of [Medical Statistics]{.deletion
+author="Luigi Palla" date="2021-01-18T12:14:00Z"}[Public Health and Infectious
+Diseaes]{.insertion author="Luigi Palla" date="2021-01-18T12:14:00Z"}, [London
+School of Hygiene & Tropical Medicine]{.deletion author="Luigi Palla"
+date="2021-01-18T12:14:00Z"}[University of Rome La Sapienza]{.insertion
+author="Luigi Palla" date="2021-01-18T12:14:00Z"}, [Keppel Street]{.deletion
+author="Luigi Palla" date="2021-01-18T12:14:00Z"}[Piazzale Aldo Moro
+5]{.insertion author="Luigi Palla" date="2021-01-18T12:14:00Z"},
+[London]{.deletion author="Luigi Palla"
+date="2021-01-18T12:15:00Z"}[Rome]{.insertion author="Luigi Palla"
+date="2021-01-18T12:15:00Z"}, [WC1E 7HT]{.deletion author="Luigi Palla"
+date="2021-01-18T12:15:00Z"}[00185]{.insertion author="Luigi Palla"
+date="2021-01-18T12:15:00Z"}, [United Kingdom]{.deletion author="Luigi Palla"
+date="2021-01-18T12:15:00Z"}[Italy]{.insertion author="Luigi Palla"
+date="2021-01-18T12:15:00Z"}. (email: Luigi.Palla\<at\>[lshtm.ac.uk]{.deletion
+author="Luigi Palla" date="2021-01-18T12:15:00Z"}[uniroma1.it]{.insertion
+author="Luigi Palla" date="2021-01-18T12:15:00Z"})
+
+Sources of Support: This work was supported by Grants-in-Aid for Young
+Scientists (grant number 19K20199 to C.W.) from the Japan Society for the
+Promotion of Science (JSPS).
+
+Short running head: Food groups and time of consumption.[]{.paragraph-deletion
+author="Luigi Palla" date="2021-01-18T12:16:00Z"}
+
+<!-- #####  -->
+
+<!-- **Abbreviations:**  -->
+
+<!-- MLCA, multilevel latent class analysis; T2D, type 2 diabetes; CVD, cardiovascular disease; NDNS RP, National Diet and Nutrition Survey Rolling Programme; PHE, Public Health England; FSA, Food Standards Agency; PSU, primary sampling units; BMI, body mass index; WC, waist circumferences; HDL, high-density lipoprotein; LDL, low-density lipoprotein; TG, triglycerides; HbA1c, hemoglobin A1c; CI, confidence interval. -->
+
+##### 
+
+ABSTRACT
+--------
+
+**Background:** Time of eating has been shown to be associated with diabetes and
+obesity.
+<!-- originally line 93
+```{r fig1, eval=TRUE, echo=FALSE, out.width= '100%',cache=TRUE, fig.cap="", fig.align='center'} -->
+<!-- knitr::include_graphics("img/TotalSampleCA.png") -->
+<!-- ``` 
+-->
+
+**Objective:** To identify potential relationships between foods and eating
+time, and see whether these associations may vary by diabetes status.
+
+**Design:** The National Diet and Nutrition Survey (NDNS) includ[ing]{.insertion
+author="Luigi Palla" date="2020-09-07T09:40:00Z"}[ed]{.deletion
+author="Luigi Palla" date="2020-09-07T09:40:00Z"} 6802 adults (age $\geq$ 19)
+collected 749026 food recordings by a 4-day-diary. The contingency table
+cross-classifying 60 food [groups]{.insertion author="Luigi Palla"
+date="2020-09-07T09:41:00Z"}[s]{.deletion author="Luigi Palla"
+date="2020-09-07T09:41:00Z"} with [7]{.insertion author="Luigi Palla"
+date="2020-09-07T09:41:00Z"}[the]{.deletion author="Luigi Palla"
+date="2020-09-07T09:41:00Z"} pre-defined [eating]{.insertion
+author="Luigi Palla" date="2020-09-07T09:42:00Z"} [7-]{.deletion
+author="Luigi Palla" date="2020-09-07T09:41:00Z"}time slots [(6-9am, 9am-12pm,
+12-]{.insertion author="Luigi Palla" date="2020-09-07T09:42:00Z"}[2pm, 2-5pm,
+5-8pm, 8-10pm, 10pm-6am)]{.insertion author="Luigi Palla"
+date="2020-09-07T09:43:00Z"} [ ]{.insertion author="Luigi Palla"
+date="2020-09-07T09:42:00Z"} were analyzed by Correspondence Analysis (CA).
+Biplots displaying the associations were generated for all adults and separately
+by diabetes status (self-reported, pre-[diabetes]{.insertion
+author="Luigi Palla" date="2021-01-18T12:18:00Z"}, undiagnosed [ ]{.insertion
+author="Luigi Palla" date="2021-01-18T12:18:00Z"} [-]{.deletion
+author="Luigi Palla" date="2021-01-18T12:18:00Z"}[diabetes]{.insertion
+author="Luigi Palla" date="2021-01-18T12:18:00Z"}, and non-diabetics) [to
+explore the associations between food groups and time of eating across diabetes
+strata]{.insertion author="Luigi Palla" date="2021-01-18T12:21:00Z"}. [For
+selected food groups o]{.insertion author="Luigi Palla"
+date="2021-01-18T12:23:00Z"}[O]{.deletion author="Luigi Palla"
+date="2021-01-18T12:23:00Z"}dds ratios (OR, 99% confidence intervals, CI) were
+derived of consuming unhealthy foods at evening/night (8 pm - 6 am) vs. earlier
+in the day, by logistic regression models with generalized estimating
+equation[s]{.insertion author="Luigi Palla" date="2021-01-18T12:20:00Z"}.
+
+**Results:** [Need to specify whether this is for all adults / across diabetes
+status]{.comment-start id="52" author="Luigi Palla"
+date="2020-09-07T09:46:00Z"}The biplots suggested positive associations between
+evening/night and puddings, regular soft drinks, sugar confectioneries,
+chocolates, spirits, beers, ice cream, biscuits, and crisps[]{.comment-end
+id="52"}. The OR (99% CIs) of consuming these foods at evening/night were
+respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19
+(2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91
+(1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time. [I have rephrased as biplots
+suggest (strong) association while logistic regression is the technique that you
+would talk about in terms of likelihood.]{.comment-start id="53"
+author="Luigi Palla" date="2020-09-07T09:52:00Z"}Stratified biplots found that
+sweetened beverages, sugar-confectioneries [were more likely]{.deletion
+author="Luigi Palla" date="2021-01-18T12:25:00Z"}[appeared more s]{.insertion
+author="Luigi Palla" date="2021-01-18T12:25:00Z"} [to be consumed at]{.deletion
+author="Luigi Palla" date="2021-01-18T12:26:00Z"} [trongly associated
+with]{.insertion author="Luigi Palla" date="2021-01-18T12:26:00Z"}
+even[ing]{.insertion author="Luigi Palla"
+date="2021-01-18T12:26:00Z"}[t]{.deletion author="Luigi Palla"
+date="2021-01-18T12:26:00Z"}/night [consumption]{.insertion author="Luigi Palla"
+date="2021-01-18T12:26:00Z"} among undiagnosed diabetics.[]{.comment-end
+id="53"}
+
+**Conclusions:** Foods consumed in the evening/night time tend to be highly
+processed, easily accessible, and rich in added sugar or saturated fat.
+Individuals with undiagnosed diabetes are more likely to consume unhealthy foods
+at night. Further longitudinal studies are required to [explore]{.deletion
+author="Luigi Palla" date="2020-09-07T09:55:00Z"} [ascertain]{.insertion
+author="Luigi Palla" date="2020-09-07T09:55:00Z"} the causal [direction of the
+association between late-eating and diabetes status]{.insertion
+author="Luigi Palla" date="2020-09-07T09:55:00Z"}[ity]{.deletion
+author="Luigi Palla" date="2020-09-07T09:55:00Z"}.
+
+##### 
+
+INTRODUCTION
+------------
+
+The timing of energy intake has been shown to be associated with obesity and
+diabetes. [@almoosawi2016chrono] Specifically, eating late at night or having a
+late dinner was found to be related to higher risk of obesity
+[@xiao2019meal;@yoshida2018association], hyperglycemia [@nakajima2015association], metabolic syndrome
+[@kutsuma2014potential], diabetes [@mattson2014meal], and poorer glycemic
+control among diabetics [@sakai2017late]. However, the relationship
+between food choice and [their time of being consumed during]{.deletion
+author="Luigi Palla" date="2021-01-18T13:00:00Z"} the time of [food consumption
+during the]{.insertion author="Luigi Palla" date="2021-01-18T13:00:00Z"} day is
+left largely unknown. Shiftworkers have an increased risk of obesity
+[@balieiro2014nutritional;@barbadoro2013rotating], and diabetes [@pan2011rotating], probably due to
+limited availability of healthy food choice during their night shifts
+[@bonnell2017influences;@balieiro2014nutritional]. Identifying those unhealthy foods that might be chosen
+during late night time would be helpful when guiding people to change their
+eating habit for the purpose of either weight losing or maintaining glycemic
+control. Dietary diary recordings from national surveys [can]{.insertion
+author="Luigi Palla" date="2021-01-18T13:03:00Z"} provide[d]{.deletion
+author="Luigi Palla" date="2021-01-18T13:03:00Z"} detailed food choice data for
+exploration of [the]{.insertion author="Luigi Palla"
+date="2021-01-18T13:04:00Z"} relationships between food groups and their time of
+consumption in general population.
+
+[In this study, w]{.insertion author="Luigi Palla"
+date="2021-01-18T13:06:00Z"}[W]{.deletion author="Luigi Palla"
+date="2021-01-18T13:06:00Z"}e aimed to de[s]{.insertion author="Luigi Palla"
+date="2021-01-18T13:07:00Z"}cribe the relationship between food groups and the
+time of day when they were consumed, and how such relationships may vary by
+status of type 2 diabetes[, using the data published by the]{.insertion
+author="Luigi Palla" date="2021-01-18T13:07:00Z"} [Rolling Programme of
+the]{.insertion author="Luigi Palla" date="2021-01-18T13:08:00Z"} [UK National
+Diet and Nutrition Survey]{.insertion author="Luigi Palla"
+date="2021-01-18T13:07:00Z"} [from 2008 to 2017]{.insertion author="Luigi Palla"
+date="2021-01-18T13:08:00Z"} [as this survey includes diet diaries providing
+detailed information]{.insertion author="Luigi Palla"
+date="2021-01-18T13:09:00Z"} [on the time of day of food intake]{.insertion
+author="Luigi Palla" date="2021-01-18T13:11:00Z"}[.]{.deletion
+author="Luigi Palla" date="2021-01-18T13:07:00Z"}
+
+[You should definitely extend the Methods to talk more the data available with NDNS]{.comment-start id="92" author="Luigi Palla" date="2021-01-18T17:35:00Z"}METHODS[]{.comment-end id="92"}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6802 adults (2810 men and 3992 women) and 749026 food recordings collected by
+the UK National Diet and Nutrition Survey Rolling Programme (NDNS RP 2008-17)
+were analyzed in the current study [@MRCElsieWiddowsonLaboratory2018]. The sample was
+randomly drawn from a list of all addresses in the UK, clustered into postcode
+sectors. Details of the rationale, design and methods of the survey can be found
+in the previous published reports [@bates2014national; @roberts2018national]. Time of the day was
+categorized [in]{.insertion author="Luigi Palla"
+date="2021-01-18T13:18:00Z"}[as]{.deletion author="Luigi Palla"
+date="2021-01-18T13:18:00Z"} 7 slots: 6-9 am, 9-12 noon, 12-2 pm, 2-5 pm, 5-8
+pm, and 10 pm - 6 am. Foods recorded were classified into 60 standard food
+groups with 1 to 10 subgroups each: the details are given in Appendix R of the
+NDNS offical report [@NDNSdatabase2018]. We focused on the 60 standard food
+groups in the current analysis. [I think here you need to clarify which data are
+available (only a subset have lab measures, most have only self-reported
+info).Would it be good to have a flow-chart specifying the
+categorization?]{.comment-start id="98" author="Luigi Palla"
+date="2021-01-18T13:20:00Z"}Diabetes status[es]{.deletion author="Luigi Palla"
+date="2021-01-18T13:19:00Z"} w[as]{.insertion author="Luigi Palla"
+date="2021-01-18T13:19:00Z"}[ere]{.deletion author="Luigi Palla"
+date="2021-01-18T13:19:00Z"} defined as: 1) healthy if fasting glucose was lower
+than 6.10 (mmol/L), hemoglobin A1c (HbA1c) were less than 6.5 (%), and without
+self-reported diabetes or under treatment of diabetes (n = 2626)[]{.comment-end
+id="98"}; 2) pre-[What about HbA1c?]{.comment-start id="102"
+author="Luigi Palla" date="2021-01-18T17:21:00Z"}diabetic if fasting glucose was
+[lower]{.deletion author="Luigi Palla" date="2021-01-18T13:23:00Z"} between 6.10
+and 6.99 (inclusive) []{.comment-end id="102"}but without self-reported diabetes
+or under treatment of diabetes (n = 133); 3) undiagnosed diabetic if either
+fasting glucose was higher or equal to 7.00 (mmol/L) or HbA1c higher or equal to
+6.5 (%) but without self-reported diabetes or under treatment of diabetes (n =
+99); 4) diabetic if participant had self-reported diabetes or under treatment of
+diabetes (n = 227). Consequently, [the]{.insertion author="Luigi Palla"
+date="2021-01-18T17:24:00Z"} number of adults whose diabetes status could not be
+confirmed was 3717 (1519 men, 2198 women) [and they]{.deletion
+author="Luigi Palla" date="2021-01-18T17:25:00Z"}[which]{.insertion
+author="Luigi Palla" date="2021-01-18T17:25:00Z"} were kept [only]{.insertion
+author="Luigi Palla" date="2021-01-18T17:25:00Z"} in the whole sample
+[(unstratified)]{.insertion author="Luigi Palla" date="2021-01-18T17:25:00Z"}
+analyses. [Is this the only other variable available and used in the analysis??
+And if so why other potential covariates were discarded?]{.comment-start
+id="109" author="Luigi Palla" date="2021-01-18T17:26:00Z"}In addition, the
+National Statistics Socio-economic Classification [@rose2005national] were
+applied in the survey and therefore accordingly, the socio-economic
+classification for the individuals' household were defined with 8
+categories.[]{.comment-end id="109"}
+
+[Here you can cite the paper that uses similar splitting into 2 parts:
+[Nutrients \| Free Full-Text \| Where Do Adolescents Eat Less-Healthy Foods?
+Correspondence Analysis and Logistic Regression Results from the UK National
+Diet and Nutrition Survey (mdpi.com)](numbering.xml). This paper also explains
+the way to interpret CA so it is helpful reference more widely.]{.comment-start
+id="111" author="Luigi Palla" date="2021-01-18T17:37:00Z"}Correspondence
+analysis (CA) [@greenacre2017correspondence;@Chapman2017] was used as a tool for data mining,
+visualisation and hypotheses generation using half of the randomly selected NDNS
+diary entries data. []{.comment-end id="111"}Specifically, the contingency table
+generated by cross-tabulating [60]{.insertion author="Luigi Palla"
+date="2021-01-18T17:49:00Z"} food [groups]{.insertion author="Luigi Palla"
+date="2021-01-18T17:49:00Z"}[s]{.deletion author="Luigi Palla"
+date="2021-01-18T17:49:00Z"} and [7]{.insertion author="Luigi Palla"
+date="2021-01-18T17:49:00Z"} time [slots]{.insertion author="Luigi Palla"
+date="2021-01-18T17:49:00Z"} [of eating]{.deletion author="Luigi Palla"
+date="2021-01-18T17:49:00Z"} were analyzed by CA. Through CA, the 60 categories
+of standard food and the 7 time-slot[s]{.insertion author="Luigi Palla"
+date="2021-01-18T17:51:00Z"} were projected on two dimensions that could jointly
+contain large percentage of the $\chi^{2}$ deviation (or inertia) of the table.
+Biplots that graphically show[ing]{.deletion author="Luigi Palla"
+date="2021-01-18T17:50:00Z"} the association between time of day and food groups
+were derived for all adults and sep[a]{.insertion author="Luigi Palla"
+date="2021-01-18T17:50:00Z"}rately according to their diabetes status. To
+account for the hierarch[ical structure]{.insertion author="Luigi Palla"
+date="2021-01-18T17:54:00Z"}[y]{.deletion author="Luigi Palla"
+date="2021-01-18T17:54:00Z"} of the data (food recorded by the same individuals
+who lived within the same [area/]{.insertion author="Luigi Palla"
+date="2021-01-18T17:55:00Z"}sampling units) and [to]{.deletion
+author="Luigi Palla" date="2021-01-18T17:55:00Z"} calculate population
+[marginal]{.deletion author="Luigi Palla" date="2021-01-18T17:55:00Z"}
+[average]{.insertion author="Luigi Palla" date="2021-01-18T17:55:00Z"} odds
+ratios (OR), logistic regression models with generalized estimating equations
+(GEE) were [subsequently]{.insertion author="Luigi Palla"
+date="2021-01-18T17:56:00Z"} used to test associations that were
+[first]{.insertion author="Luigi Palla" date="2021-01-18T17:56:00Z"} suggested
+[from]{.deletion author="Luigi Palla" date="2021-01-18T17:56:00Z"} [by visual
+inspection of]{.insertion author="Luigi Palla" date="2021-01-18T17:56:00Z"}
+biplots generated by CA[,]{.insertion author="Luigi Palla"
+date="2021-01-18T17:56:00Z"} using the remaining half of the diary entries data.
+The marginal ORs and their 99% confidence intervals (CI) [was]{.deletion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"} [were]{.insertion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"} derived of consuming unhealthy
+food groups selected by CA, later in the[r]{.deletion author="Luigi Palla"
+date="2021-01-18T19:44:00Z"} day (8 pm - 6 am[, i.e. in the evening and
+night]{.insertion author="Luigi Palla" date="2021-01-18T19:44:00Z"}) compared to
+earlier in the day [(morning and afternoon)]{.insertion author="Luigi Palla"
+date="2021-01-18T19:44:00Z"}. CA and biplots were conducted and generated by the
+following packages under R environment [@Rcoreteam]:
+`FactoMineR, factoextra, ggplot2, ggrepel` [@L__2008;@factoextra;@ggplot2;@ggrepel]. Logistic
+regression models with GEE were performed with SAS procedure `GENMOD`
+[@SAS94] adjusted for age, sex, and soci[o]{.insertion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"}[al]{.deletion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"}[-]{.insertion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"} [ ]{.deletion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"} economic [levels]{.deletion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"}[status]{.insertion
+author="Luigi Palla" date="2021-01-18T17:57:00Z"}[,]{.insertion
+author="Luigi Palla" date="2021-01-18T19:45:00Z"} [which were deemed]{.insertion
+author="Luigi Palla" date="2021-01-18T19:46:00Z"} [the main potential
+confounders]{.insertion author="Luigi Palla" date="2021-01-18T19:45:00Z"} [of
+the associations]{.insertion author="Luigi Palla"
+date="2021-01-18T19:46:00Z"}[.]{.deletion author="Luigi Palla"
+date="2021-01-18T19:45:00Z"}
+
+RESULTS
+-------
+
+The dataset consisted of 2810 (41.3%) men and 3992 (58.7%) women
+[aged]{.deletion author="Luigi Palla" date="2021-01-19T13:43:00Z"} older than or
+equal to 19 years old with the mean age of 49.9 years ([standard deviation,
+sd]{.deletion author="Luigi Palla" date="2021-01-19T13:44:00Z"} [SD]{.insertion
+author="Luigi Palla" date="2021-01-19T13:44:00Z"} = 17.6). [Among these
+individuals]{.deletion author="Luigi Palla" date="2021-01-19T13:44:00Z"}[Of
+these]{.insertion author="Luigi Palla" date="2021-01-19T13:44:00Z"} 22.6 % [of
+them]{.deletion author="Luigi Palla" date="2021-01-19T13:44:00Z"} were current
+smokers, 24.3 % were past smokers. The average body mass index (BMI) was 27.7
+kg/m$^{2}$ ([sd]{.deletion author="Luigi Palla" date="2021-01-19T13:45:00Z"}
+[SD]{.insertion author="Luigi Palla" date="2021-01-19T13:45:00Z"} = 5.41). Among
+the food recordings collected [(n=749026)]{.insertion author="Luigi Palla"
+date="2021-01-19T13:51:00Z"}, 56.9% were recorded during traditional breakfast
+(6 am - 9 am: 14.3%), lunch (12 noon - 2 pm: 18.5%), or dinner (5 pm - 8 pm:
+24.1%) time slots. Table 1. shows the top 37 food groups that contributed to 90%
+of the total calories consumed by adults in NDNS RP. These food groups accounted
+for 478028 of the total diary entries (63.8 %). The random process
+split[ted]{.deletion author="Luigi Palla" date="2021-01-19T13:48:00Z"} the
+[data]{.deletion author="Luigi Palla" date="2021-01-19T13:48:00Z"} [whole
+set]{.insertion author="Luigi Palla" date="2021-01-19T13:48:00Z"} of food
+recordings into a hypothesis generating dataset of 374682 and a testing dataset
+of 374344.
+
+![Figure 1. Biplot of food groups and eating time slots among total sample of
+NDNS RP.](media/image1.png){width="5.902777777777778in"
+height="3.935184820647419in"}
+
+Figure 1. Biplot of food groups and eating time slots among total sample of NDNS
+RP.
+
+Figure 1-5 [are]{.deletion author="Luigi Palla" date="2021-01-19T13:52:00Z"}
+[present the]{.insertion author="Luigi Palla" date="2021-01-19T13:52:00Z"} CA
+biplots that [visually]{.insertion author="Luigi Palla"
+date="2021-01-19T13:53:00Z"} summarize the associations between 60 food groups
+and the time of their consumption in [total]{.deletion author="Luigi Palla"
+date="2021-01-19T13:53:00Z"} [the entire]{.insertion author="Luigi Palla"
+date="2021-01-19T13:53:00Z"} sample and [then]{.insertion author="Luigi Palla"
+date="2021-01-19T13:54:00Z"} [stratified]{.deletion author="Luigi Palla"
+date="2021-01-19T13:54:00Z"} [stratifying]{.insertion author="Luigi Palla"
+date="2021-01-19T13:54:00Z"} by their diabetes status. In Figure 1, the
+horizontal axis explains 68.9 % the [correlation]{.deletion author="Luigi Palla"
+date="2021-01-19T13:54:00Z"} [association]{.insertion author="Luigi Palla"
+date="2021-01-19T13:54:00Z"} [(inertia)]{.insertion author="Luigi Palla"
+date="2021-01-19T13:55:00Z"} between food and time while the verticle axis
+reflects 15.3 % of the same relationship. Therefore, a total of 84.2 % of the [
+]{.insertion author="Luigi Palla" date="2021-01-19T13:55:00Z"} inertia between
+food and time were captured in this figure which shows a visual summary of how
+[the]{.deletion author="Luigi Palla" date="2021-01-19T13:56:00Z"}
+[those]{.insertion author="Luigi Palla" date="2021-01-19T13:56:00Z"} two
+[categorical]{.insertion author="Luigi Palla" date="2021-01-19T13:55:00Z"}
+variables are related. Specifically, time slots later than 8 pm are shown in the
+upper [ ]{.insertion author="Luigi Palla" date="2021-01-19T13:58:00Z"} [
+]{.deletion author="Luigi Palla" date="2021-01-19T13:58:00Z"} side [
+]{.insertion author="Luigi Palla" date="2021-01-19T13:57:00Z"} of the
+[figure]{.deletion author="Luigi Palla" date="2021-01-19T13:58:00Z"}
+[plot]{.insertion author="Luigi Palla" date="2021-01-19T13:58:00Z"} closer to
+[foods contained alcohol]{.deletion author="Luigi Palla"
+date="2021-01-19T13:56:00Z"}[alcoholic products]{.insertion author="Luigi Palla"
+date="2021-01-19T13:56:00Z"} (beers and spirits) or highly
+processed/energy[-]{.insertion author="Luigi Palla" date="2021-01-19T13:57:00Z"}
+[con]{.deletion author="Luigi Palla"
+date="2021-01-19T13:57:00Z"}dense[d]{.deletion author="Luigi Palla"
+date="2021-01-19T13:57:00Z"} foods (sugar confectioneries, chocolates, biscuits,
+regular softdrinks, ice cream, crisps); time earlier than [the]{.deletion
+author="Luigi Palla" date="2021-01-19T13:59:00Z"} noon [time]{.deletion
+author="Luigi Palla" date="2021-01-19T13:59:00Z"} [are shown]{.deletion
+author="Luigi Palla" date="2021-01-19T14:00:00Z"}[appear]{.insertion
+author="Luigi Palla" date="2021-01-19T14:00:00Z"} in the left hand side together
+with typical breakfast foods (cereals, milk, bread, etc.).
+
+![Figure 2. Biplot of food groups and eating time slots among
+non-diabetics.](media/image2.png){width="5.902777777777778in"
+height="4.427083333333333in"}
+
+Figure 2. Biplot of food groups and eating time slots among **non-diabetics**.
+
+To visualize the potential[ly different]{.insertion author="Luigi Palla"
+date="2021-01-19T14:01:00Z"} association[al patterns]{.insertion
+author="Luigi Palla" date="2021-01-19T14:01:00Z"}[s]{.deletion
+author="Luigi Palla" date="2021-01-19T14:01:00Z"} between food groups
+[and]{.insertion author="Luigi Palla" date="2021-01-19T14:01:00Z"}[,]{.deletion
+author="Luigi Palla" date="2021-01-19T14:01:00Z"} time slots [and]{.deletion
+author="Luigi Palla" date="2021-01-19T14:01:00Z"} [according to]{.insertion
+author="Luigi Palla" date="2021-01-19T14:01:00Z"} diabetes [status]{.insertion
+author="Luigi Palla" date="2021-01-19T14:01:00Z"}, [CA was conducted according
+to diabetes status in the NDNS RP dataset (]{.deletion author="Luigi Palla"
+date="2021-01-19T14:02:00Z"}Figure 2-5 [display the CA plots in subsets of the
+data]{.insertion author="Luigi Palla" date="2021-01-19T14:02:00Z"}[)]{.deletion
+author="Luigi Palla" date="2021-01-19T14:02:00Z"}. Depending on
+[different]{.deletion author="Luigi Palla" date="2021-01-19T14:03:00Z"} diabetes
+status, these biplots explained 76.3% to 84.1% of the inertia in the data.
+Similar[ly]{.insertion author="Luigi Palla" date="2021-01-19T14:06:00Z"} to
+[the]{.insertion author="Luigi Palla" date="2021-01-19T14:06:00Z"} biplot
+created from the total sample (Figure 1), later time in the day (8 pm and later)
+are shown in the upper side of each figure [and potentially had]{.deletion
+author="Luigi Palla" date="2021-01-19T14:11:00Z"}[and suggested an]{.insertion
+author="Luigi Palla" date="2021-01-19T14:11:00Z"} association with the alcoholic
+beverages and highly processed or energy [con]{.deletion author="Luigi Palla"
+date="2021-01-19T14:06:00Z"}dense food groups. Additionally, some food groups
+and time slots also flagged up associations potentially different by diabetes
+status. For example, puddings seemed to be [shown more]{.deletion
+author="Luigi Palla" date="2021-01-19T14:12:00Z"} closer [towards]{.deletion
+author="Luigi Palla" date="2021-01-19T14:12:00Z"} [to]{.insertion
+author="Luigi Palla" date="2021-01-19T14:12:00Z"} later time in the day among
+undiagnosed diabetics (Figure 4) while for diagnosed diabetic patients (Figure
+3) they were [related]{.deletion author="Luigi Palla"
+date="2021-01-19T14:13:00Z"} [close]{.insertion author="Luigi Palla"
+date="2021-01-19T14:13:00Z"} [with]{.deletion author="Luigi Palla"
+date="2021-01-19T14:13:00Z"} [to]{.insertion author="Luigi Palla"
+date="2021-01-19T14:13:00Z"} traditional dinner time (5 pm to 8 pm) or earlier
+in the day. Furthermore, sugar confectioneries/chocolates/biscuits/regular soft
+[ ]{.insertion author="Luigi Palla" date="2021-01-19T14:20:00Z"} drinks appeared
+to be associated with later time in the day (8 pm or later) more strongly among
+undiagnosed diabetics (Figure 4) than the others.
+
+![Figure 3. Biplot of food groups and eating time slots among
+diabetics.](media/image3.png){width="5.902777777777778in"
+height="4.427083333333333in"}
+
+Figure 3. Biplot of food groups and eating time slots among **diabetics**.
+
+Based on the findings suggested from Figure 1-5, [we decided to focus
+on]{.insertion author="Luigi Palla" date="2021-01-19T14:24:00Z"} [puddings,
+regular soft drinks, sugar confectioneries, chocolates, spirits, beers, ice
+cream, biscuits, crisps]{.insertion author="Luigi Palla"
+date="2021-01-19T14:25:00Z"} [as these foods either showed a particularly strong
+association with time of the day or a different pattern of association across
+different strata of the survey sample; hence]{.insertion author="Luigi Palla"
+date="2021-01-19T14:25:00Z"} we tested the following hypotheses using logistic
+regression models (adjusted for age, sex, and socio-economic levels) with GEE:
+that the odds of consuming [any of the following foods including]{.deletion
+author="Luigi Palla" date="2021-01-19T14:30:00Z"}[each selected food]{.insertion
+author="Luigi Palla" date="2021-01-19T14:30:00Z"} ["puddings, regular soft
+drinks, sugar confectioneries, chocolates, spirits, beers, ice cream, biscuits,
+crisps"]{.deletion author="Luigi Palla" date="2021-01-19T14:30:00Z"} at later
+time of the day (8 pm - 6 am) is the same compared to earlier in the day; and
+the associations of the above-mentioned food groups and time slots are the same
+among participants with different diabetes status [(i.e. no interaction between
+time of the time of food intake and diabetes status)]{.insertion
+author="Luigi Palla" date="2021-01-19T14:22:00Z"}. The results are summarized in
+Table 2.
+
+![Figure 4. Biplot of food groups and eating time slots among undiagnosed
+diabetics.](media/image4.png){width="5.902777777777778in"
+height="4.427083333333333in"}
+
+Figure 4. Biplot of food groups and eating time slots among **undiagnosed
+diabetics**.
+
+![Figure 5. Biplot of food groups and eating time slots among
+pre-diabetics.](media/image5.png){width="5.902777777777778in"
+height="4.427083333333333in"}
+
+Figure 5. Biplot of food groups and eating time slots among **pre-diabetics**.
+
+The listed food groups were found to be consumed during time between 8 pm and 6
+am with higher odds compared to earlier time. The OR (99% CIs) [main
+effects]{.insertion author="Luigi Palla" date="2021-01-19T14:33:00Z"} of
+consuming these foods at evening/night were [respectively]{.deletion
+author="Luigi Palla" date="2021-01-19T14:31:00Z"}[for]{.insertion
+author="Luigi Palla" date="2021-01-19T14:31:00Z"} [puddings]{.insertion
+author="Luigi Palla" date="2021-01-19T14:30:00Z"} 1.38 (1.03, 1.86), [for
+regular soft drinks]{.insertion author="Luigi Palla"
+date="2021-01-19T14:31:00Z"} 1.74 (1.47, 2.06), [for]{.insertion
+author="Luigi Palla" date="2021-01-19T14:31:00Z"} [sugar
+confectioneries]{.insertion author="Luigi Palla" date="2021-01-19T14:31:00Z"}
+1.92 (1.38, 2.69), [for chocolates]{.insertion author="Luigi Palla"
+date="2021-01-19T14:31:00Z"} 3.19 (2.69, 3.79), [for spirits]{.insertion
+author="Luigi Palla" date="2021-01-19T14:32:00Z"} 11.13 (8.37, 14.80), [for
+beers]{.insertion author="Luigi Palla" date="2021-01-19T14:32:00Z"} 7.19 (5.87,
+8.82), [for ice-cream]{.insertion author="Luigi Palla"
+date="2021-01-19T14:32:00Z"} 2.38 (1.79, 3.15), [for biscuits]{.insertion
+author="Luigi Palla" date="2021-01-19T14:32:00Z"} 1.91 (1.67, 2.16), [for
+crisps]{.insertion author="Luigi Palla" date="2021-01-19T14:32:00Z"} 1.55 (1.27,
+1.88) vs. earlier time. Opposite directions of the association for puddings were
+detected [across diabetes status:]{.insertion author="Luigi Palla"
+date="2021-01-19T14:33:00Z"}[. T]{.deletion author="Luigi Palla"
+date="2021-01-19T14:33:00Z"}[t]{.insertion author="Luigi Palla"
+date="2021-01-19T14:33:00Z"}he ORs (99% CIs) for consuming puddings at night
+time (8 pm or later) compared to earlier time were 1.50 (1.10, 2.07), 0.89
+(0.16, 4.87), 1.81 (0.41, 7.98), and 0.58 (0.14, 2.43) for healthy, prediabetic,
+undiagnosed diabetic, and diabetic paticipants, respectively. Furthermore,
+undiagnosed diabetic patients were found to have [higher]{.deletion
+author="Luigi Palla" date="2021-01-19T14:36:00Z"} [particularly high]{.insertion
+author="Luigi Palla" date="2021-01-19T14:36:00Z"} odds of consuming regular soft
+drinks (OR: 2.72; 99% CI: 1.44, 5.14), and sugar cofectioneries (OR: 13.07;
+99%CI: 4.59, 37.24) during night time periods than earlier time in the day [and
+the other participants]{.deletion author="Luigi Palla"
+date="2021-01-19T14:36:00Z"}.
+
+<!-- [[redoc-codechunk-2]]-->
+
+[Suzana could enhance this discussion?]{.comment-start id="247" author="Luigi Palla" date="2021-01-19T14:45:00Z"}DISCUSSION[]{.comment-end id="247"}
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+The present study described the potential relationships between food groups and
+time of their consumption in a representative sample from the NDNS RP. All
+unhealthy foods emerged from CA were found to be more likely to be consumed
+after 8 pm. These included alcoholic/sweetened beverages, chocolates and other
+foods rich in added sugars and saturated fats such as biscuits and ice cream.
+Foods chosen in the evening/night time slots tend to be highly processed and
+easily accessible. Specifically, undiagnosed patients might be at a higher risk
+of worsening their condition as they were found to have higher odds to choose a
+number of less healthy foods after 8 pm (sugar confectioneries, regular soft
+drinks) compared to earlier time than diabetics and non-diabetics. Those food
+might need to be targeted when designing intervention to those who might be at
+risk of being diabetics[, also in terms of]{.insertion author="Luigi Palla"
+date="2021-01-19T14:39:00Z"} [the]{.insertion author="Luigi Palla"
+date="2021-01-19T14:40:00Z"} [timing]{.insertion author="Luigi Palla"
+date="2021-01-19T14:39:00Z"} [let alone quality]{.insertion author="Luigi Palla"
+date="2021-01-19T14:40:00Z"} [of intake]{.insertion author="Luigi Palla"
+date="2021-01-19T14:39:00Z"}. On the other hand, diabete[s]{.insertion
+author="Luigi Palla" date="2021-01-19T14:40:00Z"} patients were found to be
+[potentially]{.insertion author="Luigi Palla" date="2021-01-19T14:41:00Z"}
+controlling their choice of food groups such as avoiding puddings at night.
+However, higher odds of consuming alcoholic beverages and energy condensed foods
+such as chocolates and sugar confectioneries at night among diabetics suggested
+that their food choice might need further modifications. [ ]{.insertion
+author="Luigi Palla" date="2021-01-19T14:42:00Z"}
+
+[Suzana, could you please beef this up, also including more
+references?]{.comment-start id="257" author="Luigi Palla"
+date="2021-01-19T14:45:00Z"}Assessing the relationships between food groups and
+timing of eating [by diabetes status]{.insertion author="Luigi Palla"
+date="2021-01-19T14:44:00Z"} [would]{.deletion author="Luigi Palla"
+date="2021-01-19T14:44:00Z"} [can]{.insertion author="Luigi Palla"
+date="2021-01-19T14:44:00Z"} be considered as a first step towards
+i[n]{.deletion author="Luigi Palla" date="2021-01-19T14:44:00Z"}dentifying
+specific public health targets for behavior change/intervention. Previous
+evidence also found that both sweetened and alcoholic beverages are responsibile
+for large portion of energy consumption at night [in other
+populations]{.insertion author="Luigi Palla" date="2021-01-19T14:45:00Z"}
+[@Hassen2018][.]{.deletion author="Luigi Palla"
+date="2021-01-19T14:45:00Z"}[....]{.insertion author="Luigi Palla"
+date="2021-01-19T14:45:00Z"}[]{.paragraph-insertion author="Luigi Palla"
+date="2021-01-19T14:46:00Z"}
+
+[An important limitation in this study and our findings is that the cause-effect
+relationship between time of unhealthy food intake and diabetes status cannot be
+resolved as the study is cross-sectional. Hence further]{.insertion
+author="Luigi Palla" date="2021-01-19T14:46:00Z"} [future]{.insertion
+author="Luigi Palla" date="2021-01-19T14:48:00Z"} [prospective]{.insertion
+author="Luigi Palla" date="2021-01-19T14:47:00Z"} [studies are
+warranted]{.insertion author="Luigi Palla" date="2021-01-19T14:46:00Z"} [to
+investigate the relationship between diabetes and other disease
+incidence]{.insertion author="Luigi Palla"
+date="2021-01-19T14:47:00Z"}[s]{.insertion author="Luigi Palla"
+date="2021-01-19T14:48:00Z"} [in relation to both quality and timing of
+eating.]{.insertion author="Luigi Palla"
+date="2021-01-19T14:47:00Z"}[]{.paragraph-insertion author="Luigi Palla"
+date="2021-01-19T14:46:00Z"}
+
+[]{.paragraph-insertion author="Luigi Palla" date="2021-01-19T14:44:00Z"}
+
+### Conclusions
+
+ACKNOWLEDGEMENT
+---------------
+
+CONFLIT OF INTEREST (COI) STATEMENT
+-----------------------------------
+
+The authors declared no conflicts of interest.
+
+AUTHOR'S CONTRIBUTIONS
+----------------------
+
+CW, SA, and LP: designed research and had primary responsibility for final
+content; CW and LP performed statistical analysis; and all authors: wrote the
+manuscript, read and approved the final manuscript.
+
+##### 
+
+REFERENCES
+----------
+
+1\. Almoosawi S, Vingeliene S, Karagounis L, Pot G. Chrono-nutrition: A review of
+current evidence from observational studies on global trends in time-of-day of
+energy intake and its association with obesity. Proc Nutr Soc. Cambridge
+University Press; 2016;75:487--500.
+
+2\. Xiao Q, Garaulet M, Scheer FA. Meal timing and obesity: Interactions with
+macronutrient intake and chronotype. International Journal of Obesity. Nature
+Publishing Group; 2019;43:1701--11.
+
+3\. Yoshida J, Eguchi E, Nagaoka K, Ito T, Ogino K. Association of night eating
+habits with metabolic syndrome and its components: A longitudinal study. BMC
+public health. Springer; 2018;18:1366.
+
+4\. Nakajima K, Suwa K. Association of hyperglycemia in a general japanese
+population with late-night-dinner eating alone, but not breakfast skipping
+alone. Journal of Diabetes & Metabolic Disorders. BioMed Central; 2015;14:16.
+
+5\. Kutsuma A, Nakajima K, Suwa K. Potential association between breakfast
+skipping and concomitant late-night-dinner eating with metabolic syndrome and
+proteinuria in the japanese population. Scientifica. Hindawi; 2014;2014.
+
+6\. Mattson MP, Allison DB, Fontana L, Harvie M, Longo VD, Malaisse WJ, Mosley M,
+Notterpek L, Ravussin E, Scheer FA, et al. Meal frequency and timing in health
+and disease. Proceedings of the National Academy of Sciences. National Acad
+Sciences; 2014;111:16647--53.
+
+7\. Sakai R, Hashimoto Y, Ushigome E, Miki A, Okamura T, Matsugasumi M, Fukuda T,
+Majima S, Matsumoto S, Senmaru T, et al. Late-night-dinner is associated with
+poor glycemic control in people with type 2 diabetes: The kamogawa-dm cohort
+study. Endocrine journal. The Japan Endocrine Society; 2017;EJ17--0414.
+
+8\. Balieiro LCT, Rossato LT, Waterhouse J, Paim SL, Mota MC, Crispim CA.
+Nutritional status and eating habits of bus drivers during the day and night.
+Chronobiology international. Taylor & Francis; 2014;31:1123--9.
+
+9\. Barbadoro P, Santarelli L, Croce N, Bracci M, Vincitorio D, Prospero E,
+Minelli A. Rotating shift-work as an independent risk factor for overweight
+italian workers: A cross-sectional study. PLoS One. Public Library of Science;
+2013;8.
+
+10\. Pan A, Schernhammer ES, Sun Q, Hu FB. Rotating night shift work and risk of
+type 2 diabetes: Two prospective cohort studies in women. PLoS Med. Public
+Library of Science; 2011;8:e1001141.
+
+11\. Bonnell EK, Huggins CE, Huggins CT, McCaffrey TA, Palermo C, Bonham MP.
+Influences on dietary choices during day versus night shift in shift workers: A
+mixed methods study. Nutrients. Multidisciplinary Digital Publishing Institute;
+2017;9:193.
+
+12\. MRC Elsie Widdowson Laboratory and NatCen Social Research. National diet and
+nutrition survey years 1-8, 2008/09-2015/16 \[data collection\]. 11th Edition.
+UK Data Service. SN: 6533; 2018.
+
+13\. Bates B, Lennox A, Prentice A, Bates CJ, Page P, Nicholson S, Swan G.
+National Diet and Nutrition Survey: Results from years 1, 2, 3 and 4 (combined)
+of the Rolling Programme (2008/2009-2011/2012): A survey carried out on behalf
+of Public Health England and the Food Standards Agency. Public Health England;
+2014.
+
+14\. Roberts C, Steer T, Maplethorpe N, Cox L, Meadows S, Nicholson S, Page P,
+Swan G. National Diet and Nutrition Survey: Results from years 7 and 8
+(combined) of the Rolling Programme (2014/2015--2015/2016). Public Health
+England; 2018;
+
+15.. National diet and nutrition survey years 1-8, 2008/09-2015/16. 9th Edition.
+2018.
+
+16\. Rose D, Pevalin DJ. The national statistics socio-economic classification:
+Origins, development and use. 2005.
+
+17\. Greenacre M. Correspondence analysis in practice. Chapman; Hall/CRC; 2017.
+
+18\. Chapman AN, Beh EJ, Palla L. Application of correspondence analysis to
+graphically investigate associations between foods and eating locations. 2017;
+
+19\. R Core Team. R: A language and environment for statistical computing
+\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing; 2019.
+Available from: <https://www.R-project.org/>
+
+20\. Lê S, Josse J, Husson F. FactoMineR: A package for multivariate analysis.
+Journal of Statistical Software. Foundation for Open Access Statistic;
+2008;25:1--18.
+
+21\. Kassambara A, Mundt F. Factoextra: Extract and visualize the results of
+multivariate data analyses \[Internet\]. 2019. Available from:
+<https://CRAN.R-project.org/package=factoextra>
+
+22\. Wickham H. Ggplot2: Elegant graphics for data analysis \[Internet\].
+Springer-Verlag New York; 2016. Available from: <https://ggplot2.tidyverse.org>
+
+23\. Slowikowski K. Ggrepel: Automatically position non-overlapping text labels
+with 'ggplot2' \[Internet\]. 2019. Available from:
+<https://CRAN.R-project.org/package=ggrepel>
+
+24\. Institute S. SAS 9.4 language reference: Concepts. USA: SAS Institute Inc.
+2013.
+
+25\. Hassen WS, Castetbon K, Tichit C, Péneau S, Nechba A, Ducrot P, Lampuré A,
+Bellisle F, Hercberg S, Méjean C. Energy, nutrient and food content of snacks in
+french adults. Nutrition journal. BioMed Central; 2018;17:33.
