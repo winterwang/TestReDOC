@@ -1,6 +1,6 @@
 ---
 title: "Relationships between food groups, eating time slots and diabetes status in adults from the UK National Diet and Nutrition Survey (2008–2017)"
-author: "Chaochen Wang^1^, Suzana Almoosawi^2^, Luigi Palla^3^"
+author: "Chaochen Wang^1^, Suzana Almoosawi^2^, Luigi Palla^3,4,5^"
 # date: "2018年11月6日"
 output: 
   redoc::redoc:
@@ -11,7 +11,6 @@ output:
     reference_docx: templateAJCN.docx
 bibliography: bibliography.bib
 csl: the-american-journal-of-clinical-nutrition.csl
-# csl: brain.csl
 ---
 
 <div class="redoc" id="redoc-codechunk-1">
@@ -19,13 +18,15 @@ csl: the-american-journal-of-clinical-nutrition.csl
 
 </div>
 
-1. Department of Public Health, Aichi Medical University, Nagakute, Aichi, JAPAN (C.W.);
-3. Brain, Performance and Nutrition Research Centre, Northumbria University, Newcastle, UK (S.A.);
-1. Department of Medical Statistics, London School of Hygiene & Tropical Medicine, London, UK (L.P.)
+1. Department of Public Health, Aichi Medical University, Nagakute, Aichi, JAPAN (C.W.)
+3. Faculty of Medicine, School of Public Health, Imperial College London, London, UK (S.A.)
+1. Department of Public Health and Infectious Diseases, University of Rome La Sapienza, Rome, Italy (L.P.)
+1. Department of Medical Statistics, London School of Hygiene & Tropical Medicine, London, UK 
+1. Department of Global Health, School of Tropical Medicine and Global Health, University of Nagasaki, Nagasaki, JAPAN 
 
 Corresponding Author: Luigi Palla
 
-Present address for L.P.: Department of Medical Statistics, London School of Hygiene & Tropical Medicine, Keppel Street, London, WC1E 7HT, United Kingdom. (email: Luigi.Palla\<at\>lshtm.ac.uk)
+Present address for L.P.: Department of Public Health and Infectious Diseases, University of Rome La Sapienza, Piazzale Aldo Moro 5, Rome, 00185, Italy. (email: Luigi.Palla\<at\>uniroma1.it)
 
 Sources of Support: This work was supported by Grants-in-Aid for Young Scientists (grant number 19K20199 to C.W.) from the Japan Society for the Promotion of Science (JSPS).
 

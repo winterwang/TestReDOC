@@ -1,9 +1,18 @@
 ---
 title: ""
 output: 
-  word_document:
+  officedown::rdocx_document:
     reference_docx: templatetabfig.docx
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.cap = TRUE)
+library(officedown)
+library(officer)
+```
+
+
+
 
 ```{r defineFunctions, echo=FALSE}
 insertRow <- function(existingDF, newrow, r) {
@@ -12,6 +21,7 @@ insertRow <- function(existingDF, newrow, r) {
   existingDF
 }
 ```
+
 
 
 ```{r echo=FALSE, message=FALSE}
@@ -31,6 +41,31 @@ Table.1_cap <- Table_nums(name = "Tab1",
 
 ```
 
+
+
+```{r fig.cap="Biplot of food groups and eating time slots among total sample of NDNS RP.", fig.id = "totalsample", echo=FALSE}
+knitr::include_graphics("img/TotalSampleCA.png")
+```
+
+```{r fig.cap="Biplot of food groups and eating time slots among **non-diabetics**.", fig.id = "nonDM", echo=FALSE}
+knitr::include_graphics("img/F60T7_nonDM.png")
+```
+
+```{r fig.cap="Biplot of food groups and eating time slots among **diabetics**.", fig.id = "DM", echo=FALSE}
+knitr::include_graphics("img/F60T7_DM.png")
+```
+
+```{r fig.cap="Biplot of food groups and eating time slots among **undiagnosed diabetics**.", fig.id = "UndiagDM", echo=FALSE}
+knitr::include_graphics("img/F60T7_UndiagDM.png")
+```
+
+```{r fig.cap="Biplot of food groups and eating time slots among **pre-diabetics**.", fig.id = "PreDM", echo=FALSE}
+knitr::include_graphics("img/F60T7_PreDM.png")
+```
+
+
+
+\newpage
 Table 1. The numbers of food recordings contributed to the total calories consumed by adults in the UK adults. (NDNS RP 2008-2017).
 
 ```{r Tab1, message=FALSE, echo=FALSE, fig.cap=Table.1_cap}
@@ -38,7 +73,7 @@ library(magrittr)
 library(flextable)
 library(officer)
 dt <- read.csv("table/TableFoodGroup.csv", header = T, row.names = NULL, colClasses = "character")
-names(dt) <- c(" ", "n", "Calories", "Relative Prop", "Cal Prop", "Cal Cum Prop")
+names(dt) <- c("Food group names", "n", "Calories", "Relative Prop", "Cal Prop", "Cal Cum Prop")
 
 myft <- regulartable(dt)
 myft <- bold(myft, part = "header") # bold header
@@ -50,6 +85,11 @@ myft <- autofit(myft)
 myft <- merge_h(myft, part = "header")
 myft <- merge_v(myft, part = "header")
 myft <- font(myft, part = "all", fontname = "Times")
+
+myft <- add_footer(myft, `Food group names` = "Prop: proportions.")
+myft <- merge_at(myft, i = 1, j = 1:6, part = "footer")
+myft <- font(myft, part = "all", fontname = "Times")
+
 myft
 ```
 
@@ -62,9 +102,10 @@ myft
 
 #####
 
+<!---BLOCK_LANDSCAPE_START--->
 
 
-Table 2. Odds ratio (99% confidence intervals) for foog groups eaten at night (8 pm - 6 am) vs. earlier time in the day, among total and according to different diabetes status, NDNS RP 2008-2017.					
+Table 2. Odds ratio (99% confidence intervals) for food groups eaten at night (8 pm - 6 am) vs. earlier time in the day, among total and according to different diabetes status, NDNS RP 2008-2017.					
 
 ```{r Tab2, message=FALSE, echo=FALSE}
 library(magrittr)
@@ -72,6 +113,7 @@ library(flextable)
 library(officer)
 dt <- read.csv("table/FoodTimeDM.csv", header = T, row.names = NULL, colClasses = "character")
 # names(dt) <- c(" ", "n", "Calories", "Relative Prop", "Cal Prop", "Cal Cum Prop")
+names(dt) <- c("Selected food groups", "Overall", "Healthy", "Pre-diabetics", "Undiagnosed diabetes", "Diabetes")
 
 myft <- regulartable(dt)
 myft <- bold(myft, part = "header") # bold header
@@ -83,7 +125,7 @@ myft <- autofit(myft)
 myft <- merge_h(myft, part = "header")
 myft <- merge_v(myft, part = "header")
 
-myft <- add_footer(myft, Food.group = "Logisitic regression models with GEE were adjusted for age, sex, and social-economic levels.")
+myft <- add_footer(myft, `Selected food groups` = "Logistic regression models with GEE were adjusted for age, sex, and social-economic levels.")
 myft <- merge_at(myft, i = 1, j = 1:6, part = "footer")
 myft <- font(myft, part = "all", fontname = "Times")
 
@@ -91,3 +133,4 @@ myft
 ```
 
 
+<!---BLOCK_LANDSCAPE_STOP--->
