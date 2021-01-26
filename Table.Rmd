@@ -100,8 +100,6 @@ myft
 
 
 
-#####
-
 <!---BLOCK_LANDSCAPE_START--->
 
 
@@ -131,6 +129,4 @@ myft <- font(myft, part = "all", fontname = "Times")
 
 myft
 ```
-
-
 <!---BLOCK_LANDSCAPE_STOP--->
