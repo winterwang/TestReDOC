@@ -32,35 +32,33 @@ Sources of Support: This work was supported by Grants-in-Aid for Young Scientist
 
 Short running head: Food groups and time of consumption.  
 
-<span class="redoc" id="redoc-htmlcomment-1"><!-- #####  --></span>
 
-<span class="redoc" id="redoc-htmlcomment-2"><!-- **Abbreviations:**  --></span>
+<div class="redoc" id="redoc-latex-1">
+<div class="redoc" id="redoc-latex-2">
+\newpage
 
-<span class="redoc" id="redoc-htmlcomment-3"><!-- MLCA, multilevel latent class analysis; T2D, type 2 diabetes; CVD, cardiovascular disease; NDNS RP, National Diet and Nutrition Survey Rolling Programme; PHE, Public Health England; FSA, Food Standards Agency; PSU, primary sampling units; BMI, body mass index; WC, waist circumferences; HDL, high-density lipoprotein; LDL, low-density lipoprotein; TG, triglycerides; HbA1c, hemoglobin A1c; CI, confidence interval. --></span>
+</div>
 
-
-##### 
-
+</div>
 ## ABSTRACT
 
 **Background:** Time of eating has been shown to be associated with diabetes and obesity. 
 
 **Objective:**  To identify potential relationships between foods and eating time, and see whether these associations may vary by diabetes status.
 
-**Design:** The National Diet and Nutrition Survey (NDNS) included 6802 adults (age $\geqslant$ 19) collected 749026 food recordings by a 4-day-diary. The contingency table cross-classifying 60 foods with the pre-defined 7-time slots were analyzed by Correspondence Analysis (CA). Biplots displaying the associations were generated for all adults and separately by diabetes status (self-reported, pre-, undiagnosed-, and non-diabetics). Odds ratios (OR, 99% confidence intervals, CI) were derived of consuming unhealthy foods at evening/night (8 pm - 6 am) vs. earlier in the day, by logistic regression models with generalized estimating equation.
+**Design:** The National Diet and Nutrition Survey (NDNS) including 6802 adults (age $\geqslant$ 19) collected 749026 food recordings by a 4-day-diary. The contingency table cross-classifying 60 food groups with 7 pre-defined eating time slots (6-9am, 9am-12pm, 12-2pm, 2-5pm, 8-10pm, 10pm-6am) were analyzed by Correspondence Analysis (CA). Biplots displaying the associations were generated for all adults and separately by diabetes status (self-reported, pre-diabetes, undiagnosed-diabetes, and non-diabetics) to explore the associations between food groups and time of eating across diabetes strata. For selected food groups, odds ratios (OR, 99% confidence intervals, CI) were derived of consuming unhealthy foods at evening/night (8pm-6am) vs. earlier in the day, by logistic regression models with generalized estimating equations.
 
-**Results:** The biplots suggested positive associations between evening/night and puddings, regular soft drinks, sugar confectioneries, chocolates, spirits, beers, ice cream, biscuits, and crisps. The OR (99% CIs) of consuming these foods at evening/night were respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19 (2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91 (1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time. Stratified biplots found that sweetened beverages, sugar-confectioneries were more likely to be consumed at event/night among undiagnosed diabetics.
+**Results:** The biplots suggested positive associations between evening/night and consumption of puddings, regular soft drinks, sugar confectioneries, chocolates, spirits, beers, ice cream, biscuits, and crisps for all adults in the UK. The OR (99% CIs) of consuming these foods at evening/night were respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19 (2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91 (1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time. Stratified biplots found that sweetened beverages, sugar-confectioneries appeared more strongly associated with evening/night among undiagnosed diabetics.
 
-**Conclusions:** Foods consumed in the evening/night time tend to be highly processed, easily accessible, and rich in added sugar or saturated fat. Individuals with undiagnosed diabetes are more likely to consume unhealthy foods at night. Further longitudinal studies are required to explore the causality.
+**Conclusions:** Foods consumed in the evening/night time tend to be highly processed, easily accessible, and rich in added sugar or saturated fat. Individuals with undiagnosed diabetes are more likely to consume unhealthy foods at night. Further longitudinal studies are required to ascertain the causal direction of the association between late-eating and diabetes status.
 
 
-##### 
-
+\newpage
 ## INTRODUCTION
 
-The timing of energy intake has been shown to be associated with obesity and diabetes. <span class="redoc" id="redoc-citation-1">[@almoosawi2016chrono]</span> Specifically, eating late at night or having a late dinner was found to be related to higher risk of obesity <span class="redoc" id="redoc-citation-2">[@xiao2019meal;@yoshida2018association]</span>,  hyperglycemia <span class="redoc" id="redoc-citation-3">[@nakajima2015association]</span>, metabolic syndrome <span class="redoc" id="redoc-citation-4">[@kutsuma2014potential]</span>, diabetes <span class="redoc" id="redoc-citation-5">[@mattson2014meal]</span>, and poorer glycemic control among diabetics <span class="redoc" id="redoc-citation-6">[@sakai2017late]</span>. However, the relationship between food choice and their time of being consumed during the time of day is left largely unknown. Shiftworkers have an increased risk of obesity <span class="redoc" id="redoc-citation-7">[@balieiro2014nutritional;@barbadoro2013rotating]</span>, and diabetes <span class="redoc" id="redoc-citation-8">[@pan2011rotating]</span>, probably due to limited availability of healthy food choice during their night shifts <span class="redoc" id="redoc-citation-9">[@bonnell2017influences;@balieiro2014nutritional]</span>. Identifying those unhealthy foods that might be chosen during late night time would be helpful when guiding people to change their eating habit for the purpose of either weight losing or maintaining glycemic control. Dietary diary recordings from national surveys provided detailed food choice data for exploration of relationships between food groups and their time of consumption in general population.
+The timing of energy intake has been shown to be associated with obesity and diabetes. <span class="redoc" id="redoc-citation-1">[@almoosawi2016chrono]</span> Specifically, eating late at night or having a late dinner was found to be related to higher risk of obesity <span class="redoc" id="redoc-citation-2">[@xiao2019meal;@yoshida2018association]</span>,  hyperglycemia <span class="redoc" id="redoc-citation-3">[@nakajima2015association]</span>, metabolic syndrome <span class="redoc" id="redoc-citation-4">[@kutsuma2014potential]</span>, diabetes <span class="redoc" id="redoc-citation-5">[@mattson2014meal]</span>, and poorer glycemic control among diabetics <span class="redoc" id="redoc-citation-6">[@sakai2017late]</span>. However, the relationship between food choice and the time of food consumption during the day is left largely unknown. Shiftworkers have an increased risk of obesity <span class="redoc" id="redoc-citation-7">[@balieiro2014nutritional;@barbadoro2013rotating]</span>, and diabetes <span class="redoc" id="redoc-citation-8">[@pan2011rotating]</span>, probably due to limited availability of healthy food choice during their night shifts <span class="redoc" id="redoc-citation-9">[@bonnell2017influences;@balieiro2014nutritional]</span>. Identifying those unhealthy foods that might be chosen during late night time would be helpful when guiding people to change their eating habit for the purpose of either weight losing or maintaining glycemic control. Dietary diary recordings from national surveys can provid detailed food choice data for exploration of the relationships between food groups and their time of consumption in general population.
 
-We aimed to decribe the relationship between food groups and the time of day when they were consumed, and how such relationships may vary by status of type 2 diabetes.
+In this study, we aimed to describe the relationship between food groups and the time of day when they were consumed, and how such relationships may vary by status of type 2 diabetes using the data published by the Rolling Programme of the UK National Diet and Nutrition Survey from 2008 to 2017 as this survey includes diet diaries providing detailed information on the time of day of food intake.
 
 ## METHODS 
 
@@ -73,20 +71,20 @@ Correspondence analysis (CA) <span class="redoc" id="redoc-citation-14">[@greena
 
 The dataset consisted of 2810 (41.3%) men and 3992 (58.7%) women aged older than or equal to 19 years old with the mean age of 49.9 years (standard deviation, sd = 17.6). Among these individuals 22.6 % of them were current smokers, 24.3 % were past smokers. The average body mass index (BMI) was 27.7 kg/m$^2$ (sd = 5.41). Among the food recordings collected, 56.9% were recorded during traditional breakfast (6 am - 9 am: 14.3%), lunch (12 noon - 2 pm: 18.5%), or dinner (5 pm - 8 pm: 24.1%) time slots. Table 1. shows the top 37 food groups that contributed to 90% of the total calories consumed by adults in NDNS RP. These food groups accounted for 478028 of the total diary entries (63.8 %). The random process splitted the data of food recordings into a hypothesis generating dataset of 374682 and a testing dataset of 374344. 
 
-![Figure 1. Biplot of food groups and eating time slots among total sample of NDNS RP.](img/TotalSampleCA.png)
+<span class="redoc" id="redoc-htmlcomment-1"><!-- ![Figure 1. Biplot of food groups and eating time slots among total sample of NDNS RP.](img/TotalSampleCA.png) --></span>
 
 
 Figure 1-5 are CA biplots that summarize the associations between 60 food groups and the time of their consumption in total sample and stratified by their diabetes status. In Figure 1, the horizontal axis explains 68.9 % the correlation between food and time while the verticle axis reflects 15.3 % of the same relationship. Therefore, a total of 84.2 % of the inertia between food and time were captured in this figure which shows a visual summary of how the two variables are related. Specifically, time slots later than 8 pm are shown in the upper side of the figure closer to foods contained alcohol (beers and spirits) or highly processed/energy condensed foods (sugar confectioneries, chocolates, biscuits, regular softdrinks, ice cream, crisps); time earlier than the noon time are shown in the left hand side together with typical breakfast foods (cereals, milk, bread, etc.).
 
-![Figure 2. Biplot of food groups and eating time slots among **non-diabetics**.](img/F60T7_nonDM.png)
+<span class="redoc" id="redoc-htmlcomment-2"><!-- ![Figure 2. Biplot of food groups and eating time slots among **non-diabetics**.](img/F60T7_nonDM.png) --></span>
 
 To visualize the potential associations between food groups, time slots and diabetes, CA was conducted according to diabetes status in the NDNS RP dataset (Figure 2-5). Depending on different diabetes status, these biplots explained 76.3% to 84.1% of the inertia in the data. Similar to biplot created from the total sample (Figure 1), later time in the day (8 pm and later) are shown in the upper side of each figure and potentially had association with the alcoholic beverages and highly processed or energy condense food groups. Additionally, some food groups and time slots also flagged up associations potentially different by diabetes status. For example, puddings seemed to be shown more closer towards later time in the day among undiagnosed diabetics (Figure 4) while for diagnosed diabetic patients (Figure 3) they were related with traditional dinner time (5 pm to 8 pm) or earlier in the day. Furthermore, sugar confectioneries/chocolates/biscuits/regular softdrinks appeared to be associated with later time in the day (8 pm or later) more strongly among undiagnosed diabetics (Figure 4) than the others. 
 
-![Figure 3. Biplot of food groups and eating time slots among **diabetics**.](img/F60T7_DM.png)
+<span class="redoc" id="redoc-htmlcomment-3"><!-- ![Figure 3. Biplot of food groups and eating time slots among **diabetics**.](img/F60T7_DM.png) --></span>
 
 Based on the findings suggested from Figure 1-5, we tested the following hypotheses using logistic regression models (adjusted for age, sex, and socio-economic levels) with GEE: that the odds of consuming any of the following foods including "puddings, regular soft drinks, sugar confectioneries, chocolates, spirits, beers, ice cream, biscuits, crisps" at later time of the day (8 pm - 6 am) is the same compared to earlier in the day; and the associations of the above-mentioned food groups and time slots are the same among participants with different diabetes status. The results are summarized in Table 2. 
 
-![Figure 4. Biplot of food groups and eating time slots among **undiagnosed diabetics**.](img/F60T7_UndiagDM.png)
+<span class="redoc" id="redoc-htmlcomment-4"><!-- ![Figure 4. Biplot of food groups and eating time slots among **undiagnosed diabetics**.](img/F60T7_UndiagDM.png) --></span>
 
 
 ![Figure 5. Biplot of food groups and eating time slots among **pre-diabetics**.](img/F60T7_PreDM.png)
@@ -94,7 +92,7 @@ Based on the findings suggested from Figure 1-5, we tested the following hypothe
 The listed food groups were found to be consumed during time between 8 pm and 6 am with higher odds compared to earlier time. The OR (99% CIs) of consuming these foods at evening/night were respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19 (2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91 (1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time. Opposite directions of the association for puddings were detected. The ORs (99% CIs) for consuming puddings at night time (8 pm or later) compared to earlier time were 1.50 (1.10, 2.07),	0.89 (0.16, 4.87),	1.81 (0.41, 7.98), and	0.58 (0.14, 2.43) for healthy, prediabetic, undiagnosed diabetic, and diabetic paticipants, respectively. Furthermore, undiagnosed diabetic patients were found to have higher odds of consuming regular soft drinks (OR: 2.72; 99% CI: 1.44, 5.14), and sugar cofectioneries (OR: 13.07; 99%CI: 4.59, 37.24) during night time periods than earlier time in the day and the other participants. 
 
 
-<span class="redoc" id="redoc-htmlcomment-4"><!-- <div class="redoc" id="redoc-codechunk-2">
+<span class="redoc" id="redoc-htmlcomment-5"><!-- <div class="redoc" id="redoc-codechunk-2">
 ```{r fig1, eval=TRUE, echo=FALSE, out.width= '100%',cache=TRUE, fig.cap="", fig.align='center'} -->
 <!-- knitr::include_graphics("img/TotalSampleCA.png") -->
 <!-- ``` 
