@@ -10,7 +10,8 @@ output:
     highlight_outputs: FALSE
     reference_docx: templateAJCN.docx
 bibliography: bibliography.bib
-csl: the-american-journal-of-clinical-nutrition.csl
+# csl: the-american-journal-of-clinical-nutrition.csl
+csl: biomed-central.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -55,6 +56,7 @@ In this study, we aimed to describe the relationship between food groups and the
 
 ## METHODS 
 
+<!-- expand this section to talk more about the data available with NDNS -->
 
 6802 adults (2810 men and 3992 women) and 749026 food recordings collected by the UK National Diet and Nutrition Survey Rolling Programme (NDNS RP 2008-17) were analyzed in the current study [@MRCElsieWiddowsonLaboratory2018]. The sample was randomly drawn from a list of all addresses in the UK, clustered into postcode sectors. Details of the rationale, design and methods of the survey can be found in the previous published reports [@bates2014national; @roberts2018national]. Time of the day was categorized into 7 slots: 6-9 am, 9-12 noon, 12-2 pm, 2-5 pm, 5-8 pm, and 10 pm - 6 am. Foods recorded were classified into 60 standard food groups with 1 to 10 subgroups each: the details are given in Appendix R of the NDNS official report [@NDNSdatabase2018]. We focused on the 60 standard food groups in the current analysis. Diabetes status was defined as: 1) healthy if fasting glucose was lower than 6.10 (mmol/L), hemoglobin A1c (HbA1c) were less than 6.5 (%), and without self-reported diabetes or under treatment of diabetes (n = 2626); 2) pre-diabetic if fasting glucose was lower between 6.10 and 6.99 (inclusive) but without self-reported diabetes or under treatment of diabetes (n = 133); 3) undiagnosed diabetic if either fasting glucose was higher or equal to 7.00 (mmol/L) or HbA1c higher or equal to 6.5 (%) but without self-reported diabetes or under treatment of diabetes (n = 99); 4) diabetic if participant had self-reported diabetes or under treatment of diabetes (n = 227). Consequently, number of adults whose diabetes status could not be confirmed was 3717 (1519 men, 2198 women) and they were kept in the whole sample analyses. In addition, the National Statistics Socio-economic Classification [@rose2005national] were applied in the survey and therefore accordingly, the socio-economic classification for the individuals' household were defined with 8 categories.
 
@@ -80,7 +82,7 @@ Based on the findings suggested from Figure 1-5, we tested the following hypothe
 <!-- ![Figure 4. Biplot of food groups and eating time slots among **undiagnosed diabetics**.](img/F60T7_UndiagDM.png) -->
 
 
-![Figure 5. Biplot of food groups and eating time slots among **pre-diabetics**.](img/F60T7_PreDM.png)
+<!-- ![Figure 5. Biplot of food groups and eating time slots among **pre-diabetics**.](img/F60T7_PreDM.png) -->
 
 The listed food groups were found to be consumed during time between 8 pm and 6 am with higher odds compared to earlier time. The OR (99% CIs) of consuming these foods at evening/night were respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19 (2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91 (1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time. Opposite directions of the association for puddings were detected. The ORs (99% CIs) for consuming puddings at night time (8 pm or later) compared to earlier time were 1.50 (1.10, 2.07),	0.89 (0.16, 4.87),	1.81 (0.41, 7.98), and	0.58 (0.14, 2.43) for healthy, prediabetic, undiagnosed diabetic, and diabetic paticipants, respectively. Furthermore, undiagnosed diabetic patients were found to have higher odds of consuming regular soft drinks (OR: 2.72; 99% CI: 1.44, 5.14), and sugar cofectioneries (OR: 13.07; 99%CI: 4.59, 37.24) during night time periods than earlier time in the day and the other participants. 
 

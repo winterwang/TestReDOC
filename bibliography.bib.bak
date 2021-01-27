@@ -1436,7 +1436,16 @@ Full funding sources listed at the end of the paper (see Acknowledgments).},
   publisher = {Multidisciplinary Digital Publishing Institute},
   timestamp = {2021-01-26},
 }
-
+@article{cosentino20202019,
+  title={2019 ESC Guidelines on diabetes, pre-diabetes, and cardiovascular diseases developed in collaboration with the EASD: The Task Force for diabetes, pre-diabetes, and cardiovascular diseases of the European Society of Cardiology (ESC) and the European Association for the Study of Diabetes (EASD)},
+  author={Cosentino, Francesco and Grant, Peter J and Aboyans, Victor and Bailey, Clifford J and Ceriello, Antonio and Delgado, Victoria and Federici, Massimo and Filippatos, Gerasimos and Grobbee, Diederick E and Hansen, Tina Birgitte and others},
+  journal={European heart journal},
+  volume={41},
+  number={2},
+  pages={255--323},
+  year={2020},
+  publisher={Oxford University Press}
+}
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
