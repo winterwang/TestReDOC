@@ -226,7 +226,7 @@
 }
 
 @Misc{MRCElsieWiddowsonLaboratory2018,
-  author    = {{MRC Elsie Widdowson Laboratory} and {NatCen Social Research}},
+  author    = {{\firstsecond{MRC Elsie Widdowson Laboratory and NatCen Social Research}}{{MRC Elsie Widdowson Laboratory} and {NatCen Social Research}}},
   title     = {National Diet and Nutrition Survey Years 1-8, 2008/09-2015/16 [data collection]},
   year      = {2018},
   doi       = {\url{10.5255/ukda-sn-6533-11}},
@@ -236,7 +236,7 @@
   timestamp = {2021-02-24},
 }
 
-@Misc{bates2014national,
+@Book{bates2014national,
   author    = {Bates, Beverley and Lennox, Alison and Prentice, Ann and Bates, Christopher J and Page, Polly and Nicholson, Sonja and Swan, Gillian},
   publisher = {Public Health England},
   title     = {National {D}iet and {N}utrition {S}urvey: Results from Years 1, 2, 3 and 4 (combined) of the {R}olling {P}rogramme (2008/2009-2011/2012): A survey carried out on behalf of {P}ublic {H}ealth {E}ngland and the {F}ood {S}tandards {A}gency},
@@ -255,7 +255,7 @@
 }
 
 @Misc{NDNSdatabase2018,
-  author    = {{NatCen Social Research, MRC Elsie Widdowson Laboratory, Univeristy College London. Medical School.}},
+  author    = {{\firstsecond{NatCen Social Research}{NatCen Social Research, MRC Elsie Widdowson Laboratory, Univeristy College London. Medical School.}}},
   note      = {\url{http://doi.org/10.5255/UKDA-SN-6533-8}},
   title     = {National Diet and Nutrition Survey Years 1-8, 2008/09-2015/16},
   year      = {2018},
@@ -274,12 +274,11 @@
 
 @Book{greenacre2017correspondence,
   author    = {Greenacre, Michael},
-  publisher = {Chapman and Hall},
+  publisher = {Chapman and Hall/CRC},
   title     = {Correspondence analysis in practice},
   year      = {2017},
   owner     = {wangcc.me},
   timestamp = {2021-02-24},
-    address = {New York}, 
 }
 
 @Article{Chapman2017,
@@ -340,14 +339,13 @@
 
 @Book{ggplot2,
   author    = {Hadley Wickham},
-  publisher = {Springer-Verlag},
+  publisher = {Springer-Verlag New York},
   title     = {ggplot2: Elegant Graphics for Data Analysis},
   year      = {2016},
   isbn      = {978-3-319-24277-4},
   owner     = {wangcc.me},
   timestamp = {2021-02-24},
   url       = {https://ggplot2.tidyverse.org},
-  address   = {New York},
 }
 
 @Manual{ggrepel,

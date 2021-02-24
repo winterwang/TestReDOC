@@ -142,8 +142,6 @@
 \address[id=aff2]{%
   \orgdiv{Faculty of Medicine, School of Public Health},
   \orgname{Imperial College London},
-  %\street{},
-  %\postcode{}
   \city{London},
   \cny{UK}
 }
@@ -158,17 +156,13 @@
 \address[id=aff4]{%
   \orgdiv{Department of Medical Statistics},
   \orgname{London School of Hygiene \& Tropical Medicine},
-  % \street{Piazzale Aldo Moro 5},
   \city{London},
-  % \postcode{00185}
   \cny{UK}
 }
 \address[id=aff5]{%
   \orgdiv{Department of Global Health, School of Tropical Medicine and Global Health},
   \orgname{University of Nagasaki},
-  % \street{Piazzale Aldo Moro 5},
   \city{Nagasaki},
-  % \postcode{00185}
   \cny{Japan}
 }
 
@@ -202,11 +196,14 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-\parttitle{First part title} %if any
-Text for this section.
-
-\parttitle{Second part title} %if any
-Text for this section.
+\parttitle{Background} %if any
+Time of eating has been shown to be associated with diabetes and obesity. We aimed to identify potential relationships between foods and eating time, and see whether these associations may vary by diabetes status.
+\parttitle{Method} %if any
+The National Diet and Nutrition Survey (NDNS) including 6802 adults (age $\geq$ 19 years old) collected 749,026 food recordings by a 4-day-diary. The contingency table cross-classifying 60 food groups with 7 pre-defined eating time slots (6-9am, 9am-12pm, 12-2pm, 2-5pm, 8-10pm, 10pm-6am) were analyzed by Correspondence Analysis (CA). Biplots displaying the associations were generated for all adults and separately by diabetes status (self-reported, pre-diabetes, undiagnosed-diabetes, and non-diabetics) to explore the associations between food groups and time of eating across diabetes strata. For selected food groups, odds ratios (OR, 99\% confidence intervals, CI) were derived of consuming unhealthy foods at evening/night (8pm-6am) vs. earlier in the day, by logistic regression models with generalized estimating equations.
+\parttitle{Results} 
+The biplots suggested positive associations between evening/night and consumption of puddings, regular soft drinks, sugar confectioneries, chocolates, spirits, beers, ice cream, biscuits, and crisps for all adults in the UK. The OR (99\% CIs) of consuming these foods at evening/night were respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19 (2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91 (1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time. Stratified biplots found that sweetened beverages, sugar-confectioneries appeared more strongly associated with evening/night among un-diagnosed diabetics. 
+\parttitle{Conclusions}
+Foods consumed in the evening/night time tend to be highly processed, easily accessible, and rich in added sugar or saturated fat. Individuals with undiagnosed diabetes are more likely to consume unhealthy foods at night. Further longitudinal studies are required to ascertain the causal direction of the association between late-eating and diabetes status.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -218,9 +215,10 @@ Text for this section.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{keyword}
-\kwd{sample}
-\kwd{article}
-\kwd{author}
+\kwd{chrono-nutrition}
+\kwd{time of eating}
+\kwd{correspondence analysis}
+\kwd{the UK National Diet and Nutrition Survey}
 \end{keyword}
 
 % MSC classifications codes, if any
@@ -261,50 +259,71 @@ Text for this section.
 %%%%%%%%%%%%%%%%
 %% Background %%
 %%
-\section*{Content}
-Text and results for this section, as per the individual journal's instructions for authors.
+\section*{Background}
 
-\section*{Section title}
-Text for this section\ldots
-\subsection*{Sub-heading for section}
-Text for this sub-heading\ldots
-\subsubsection*{Sub-sub heading for section}
-Text for this sub-sub-heading\ldots
-\paragraph*{Sub-sub-sub heading for section}
-Text for this sub-sub-sub-heading\ldots
+The timing of energy intake has been shown to be associated with obesity and diabetes. \cite{almoosawi2016chrono} Specifically, eating late at night or having a late dinner was found to be related to higher risk of obesity \cite{xiao2019meal,yoshida2018association}, hyperglycemia \cite{nakajima2015association}, metabolic syndrome \cite{kutsuma2014potential}, diabetes \cite{mattson2014meal}, and poorer glycemic control among diabetics \cite{sakai2017late}. However, the relationship between food choice and the time of food consumption during the day is left largely unknown. Shiftworkers have an increased risk of obesity \cite{balieiro2014nutritional,barbadoro2013rotating}, and diabetes \cite{pan2011rotating}, probably due to limited availability of healthy food choice during their night shifts \cite{bonnell2017influences,balieiro2014nutritional}. Identifying those unhealthy foods that might be chosen during late night time would be helpful when guiding people to change their eating habit for the purpose of either weight losing or maintaining glycemic control. Dietary diary recordings from national surveys can provid detailed food choice data for exploration of the relationships between food groups and their time of consumption in general population.
 
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
-addition, we examine a common modeling assumption and note the
-importance of considering the tails of the extinction time $T_x$ in
-studies of escape dynamics.
-We will first consider the expected resistant population at $vT_x$ for
-some $v>0$, (and temporarily assume $\alpha=0$)
-%
-\[
-E \bigl[Z_1(vT_x) \bigr]=
-\int_0^{v\wedge
-1}Z_0(uT_x)
-\exp (\lambda_1)\,du .
-\]
-%
-If we assume that sensitive cells follow a deterministic decay
-$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
-$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
-estimate the expected value as
-%
-\begin{equation}\label{eqexpmuts}
-\begin{aligned}[b]
-&      E\bigl[Z_1(vT_x)\bigr]\\
-&\quad      = \frac{\mu}{r}\log x
-\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du .
-\end{aligned}
-\end{equation}
-%
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,xjon,marg,schn,koha,issnic}).
+In this study, we aimed to describe the relationship between food groups and the time of day when they were consumed, and how such relationships may vary by status of type 2 diabetes using the data published by the Rolling Programme of the UK National Diet and Nutrition Survey from 2008 to 2017 as this survey includes diet diaries providing detailed information on the time of day of food intake.
+
+\section*{Methods}
+
+6802 adults (2810 men and 3992 women) and 749026 food recordings collected by the UK National Diet and Nutrition Survey Rolling Programme (NDNS RP 2008-17) were analyzed in the current study \cite{MRCElsieWiddowsonLaboratory2018}. The sample was randomly drawn from a list of all addresses in the UK, clustered into postcode sectors. Details of the rationale, design and methods of the survey can be found in the previous published reports \cite{bates2014national,roberts2018national}. Time of the day was categorized into 7 slots: 6-9 am, 9-12 noon, 12-2 pm, 2-5 pm, 5-8 pm, and 10 pm - 6 am. Foods recorded were classified into 60 standard food groups with 1 to 10 subgroups each: the details are given in Appendix R of the NDNS official report \cite{NDNSdatabase2018}. We focused on the 60 standard food groups in the current analysis. Diabetes status was defined as: 1) healthy if fasting glucose was lower than 6.10 (mmol/L), hemoglobin A1c (HbA1c) were less than 6.5 (\%), and without self-reported diabetes or under treatment of diabetes (n = 2626); 2) pre-diabetic if fasting glucose was lower between 6.10 and 6.99 (inclusive) but without self-reported diabetes or under treatment of diabetes (n = 133); 3) undiagnosed diabetic if either fasting glucose was higher or equal to 7.00 (mmol/L) or HbA1c higher or equal to 6.5 (\%) but without self-reported diabetes or under treatment of diabetes (n = 99); 4) diabetic if participant had self-reported diabetes or under treatment of diabetes (n = 227). Consequently, the number of adults whose diabetes status could not be confirmed was 3717 (1519 men, 2198 women) who were kept only in the whole sample (unstratified) analyses. In addition, the National Statistics Socio-economic Classification \cite{rose2005national} were applied in the survey and therefore accordingly, the socio-economic classification for the individuals' household were defined with 8 categories. 
+
+Correspondence analysis (CA) \cite{greenacre2017correspondence,Chapman2017,palla2020adolescents} was used as a tool for data mining, visualization and hypotheses generation using half of the randomly selected NDNS diary entries data. Specifically, the contingency table generated by cross-tabulating 60 food groups and 7 time slots were analyzed by CA. Through CA, the 60 categories of standard food and the 7 time slots were projected on two dimensions that could jointly contain large percentage of the $\chi^2$ deviation (or inertia) of the table. Biplots that graphically show the association between time of day and food groups were derived for all adults and separately according to their diabetes status. To account for the hierarchical structure of the data (food recorded by the same individuals who lived within the same area/sampling units) and to calculate population average odds ratios (OR), logistic regression models with generalized estimating equations (GEE) were subsequently used to test associations that were first suggested by visual inspection of biplots generated by CA, using the remaining half of the diary entries data. The marginal ORs and their 99\% confidence intervals (CI) were derived of consuming unhealthy food groups selected by CA, later in ther day (8 pm - 6 am, i.e. in the evening and night) compared to earlier in the day (between morning and afternoon). CA and biplots were conducted and generated by the following packages under R environment \cite{Rcoreteam}: \texttt{FactoMineR, factoextra, ggplot2, ggrepel} \cite{L__2008,factoextra,ggplot2,ggrepel}. Logistic regression models with GEE were performed with SAS procedure \texttt{GENMOD} \cite{SAS94} adjusted for age, sex, and socio-economic levels, which were deemed the main potential confounders of the associations. 
 
 
-\section*{Appendix}
-Text for this section\ldots
+\section*{Results}
+
+
+\section*{Discussion}
+
+
+\section*{Conclusions}
+
+
+%Text for this section\ldots
+%\subsection*{Sub-heading for section}
+%Text for this sub-heading\ldots
+%\subsubsection*{Sub-sub heading for section}
+%Text for this sub-sub-heading\ldots
+%\paragraph*{Sub-sub-sub heading for section}
+%Text for this sub-sub-sub-heading\ldots
+%
+%In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
+%addition, we examine a common modeling assumption and note the
+%importance of considering the tails of the extinction time $T_x$ in
+%studies of escape dynamics.
+%We will first consider the expected resistant population at $vT_x$ for
+%some $v>0$, (and temporarily assume $\alpha=0$)
+%
+%\[
+%E \bigl[Z_1(vT_x) \bigr]=
+%\int_0^{v\wedge
+%1}Z_0(uT_x)
+%\exp (\lambda_1)\,du .
+%\]
+%
+%If we assume that sensitive cells follow a deterministic decay
+%$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
+%$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
+%estimate the expected value as
+%%
+%\begin{equation}\label{eqexpmuts}
+%\begin{aligned}[b]
+%&      E\bigl[Z_1(vT_x)\bigr]\\
+%&\quad      = \frac{\mu}{r}\log x
+%\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du .
+%\end{aligned}
+%\end{equation}
+%
+%Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,xjon,marg,schn,koha,issnic}).
+
+
+
+
+
+%\section*{Appendix}
+%Text for this section\ldots
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -315,16 +334,17 @@ Text for this section\ldots
 \begin{backmatter}
 
 \section*{Acknowledgements}%% if any
-Text for this section\ldots
+%Text for this section\ldots
+The authors sincerely thank ...
 
 \section*{Funding}%% if any
-Text for this section\ldots
+This work was supported by Grants-in-Aid for Young Scientists (grant number 19K20199 to C.W.) from the Japan Society for the Promotion of Science (JSPS).
 
 \section*{Abbreviations}%% if any
-Text for this section\ldots
+to be updated \ldots
 
 \section*{Availability of data and materials}%% if any
-Text for this section\ldots
+Original data used in this study can be accessed upon request to the UK Data Service (https://www.ukdataservice.ac.uk) for academic usage (Study Number: 6533).
 
 \section*{Ethics approval and consent to participate}%% if any
 Text for this section\ldots
