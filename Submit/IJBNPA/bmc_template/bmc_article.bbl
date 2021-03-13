@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{31}
+\begin{thebibliography}{30}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -419,78 +419,101 @@ R package version 0.8.1.
 \endbibitem
 
 %%% 26
-\bibitem{koon}
+\bibitem{Wolever1988}
 \begin{barticle}
-\bauthor{\bsnm{Koonin}, \binits{E.V.}},
-\bauthor{\bsnm{Altschul}, \binits{S.F.}},
-\bauthor{\bsnm{Bork}, \binits{P.}}:
-\batitle{Brca1 protein products: functional motifs}.
-\bjtitle{Nat. Genet.}
-\bvolume{13},
-\bfpage{266}--\blpage{267}
-(\byear{1996})
+\bauthor{\bsnm{Wolever}, \binits{T.M.}},
+\bauthor{\bsnm{Jenkins}, \binits{D.J.}},
+\bauthor{\bsnm{Ocana}, \binits{A.M.}},
+\bauthor{\bsnm{Rao}, \binits{V.A.}},
+\bauthor{\bsnm{Collier}, \binits{G.R.}}:
+\batitle{{Second-meal effect: low-glycemic-index foods eaten at dinner improve
+  subsequent breakfast glycemic response}}.
+\bjtitle{The American Journal of Clinical Nutrition}
+\bvolume{48}(\bissue{4}),
+\bfpage{1041}--\blpage{1047}
+(\byear{1988}).
+doi:\doiurl{10.1093/ajcn/48.4.1041}.
+\arxivurl{https://academic.oup.com/ajcn/article-pdf/48/4/1041/24065765/1041.pdf}
 \end{barticle}
 \endbibitem
 
 %%% 27
-\bibitem{xjon}
-\begin{bchapter}
-\bauthor{\bsnm{Jones}, \binits{X.}}:
-\bctitle{Zeolites and synthetic mechanisms}.
-In: \beditor{\bsnm{Smith}, \binits{Y.}} (ed.)
-\bbtitle{Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore},
-pp. \bfpage{16}--\blpage{27}
-(\byear{1996})
-\end{bchapter}
-\endbibitem
-
-%%% 28
-\bibitem{marg}
-\begin{bbook}
-\bauthor{\bsnm{Margulis}, \binits{L.}}:
-\bbtitle{Origin of Eukaryotic Cells}.
-\bpublisher{Yale University Press},
-\blocation{New Haven}
-(\byear{1970})
-\end{bbook}
-\endbibitem
-
-%%% 29
-\bibitem{schn}
-\begin{bchapter}
-\bauthor{\bsnm{Schnepf}, \binits{E.}}:
-\bctitle{From prey via endosymbiont to plastids: comparative studies in
-  dinoflagellates}.
-In: \beditor{\bsnm{Lewin}, \binits{R.A.}} (ed.)
-\bbtitle{Origins of Plastids},
-\bedition{2nd} edn.,
-pp. \bfpage{53}--\blpage{76}.
-\bpublisher{Chapman and Hall},
-\blocation{New York}
-(\byear{1993})
-\end{bchapter}
-\endbibitem
-
-%%% 30
-\bibitem{koha}
+\bibitem{Haldar2020}
 \begin{botherref}
-\oauthor{\bsnm{Kohavi}, \binits{R.}}:
-Wrappers for performance enhancement and obvious decision graphs.
-PhD thesis,
-Stanford University, Computer Science Department
-(1995)
+\oauthor{\bsnm{Haldar}, \binits{S.}},
+\oauthor{\bsnm{Egli}, \binits{L.}},
+\oauthor{\bsnm{De~Castro}, \binits{C.A.}},
+\oauthor{\bsnm{Tay}, \binits{S.L.}},
+\oauthor{\bsnm{Koh}, \binits{M.X.N.}},
+\oauthor{\bsnm{Darimont}, \binits{C.}},
+\oauthor{\bsnm{Mace}, \binits{K.}},
+\oauthor{\bsnm{Henry}, \binits{C.J.}}:
+High or low glycemic index (gi) meals at dinner results in greater postprandial
+  glycemia compared with breakfast: a randomized controlled trial.
+BMJ open diabetes research \& care
+\textbf{8}
+(2020).
+doi:\doiurl{10.1136/bmjdrc-2019-001099}
 \end{botherref}
 \endbibitem
 
-%%% 31
-\bibitem{issnic}
+%%% 28
+\bibitem{Nitta2019}
+\begin{barticle}
+\bauthor{\bsnm{Nitta}, \binits{A.}},
+\bauthor{\bsnm{Imai}, \binits{S.}},
+\bauthor{\bsnm{Kajiyama}, \binits{S.}},
+\bauthor{\bsnm{Miyawaki}, \binits{T.}},
+\bauthor{\bsnm{Matsumoto}, \binits{S.}},
+\bauthor{\bsnm{Ozasa}, \binits{N.}},
+\bauthor{\bsnm{Kajiyama}, \binits{S.}},
+\bauthor{\bsnm{Hashimoto}, \binits{Y.}},
+\bauthor{\bsnm{Tanaka}, \binits{M.}},
+\bauthor{\bsnm{Fukui}, \binits{M.}}:
+\batitle{Impact of different timing of consuming sweet snack on postprandial
+  glucose excursions in healthy women.}
+\bjtitle{Diabetes \& metabolism}
+\bvolume{45},
+\bfpage{369}--\blpage{374}
+(\byear{2019}).
+doi:\doiurl{10.1016/j.diabet.2018.10.004}
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem{Hassen2018}
+\begin{barticle}
+\bauthor{\bsnm{Hassen}, \binits{W.S.}},
+\bauthor{\bsnm{Castetbon}, \binits{K.}},
+\bauthor{\bsnm{Tichit}, \binits{C.}},
+\bauthor{\bsnm{P{\'e}neau}, \binits{S.}},
+\bauthor{\bsnm{Nechba}, \binits{A.}},
+\bauthor{\bsnm{Ducrot}, \binits{P.}},
+\bauthor{\bsnm{Lampur{\'e}}, \binits{A.}},
+\bauthor{\bsnm{Bellisle}, \binits{F.}},
+\bauthor{\bsnm{Hercberg}, \binits{S.}},
+\bauthor{\bsnm{M{\'e}jean}, \binits{C.}}:
+\batitle{Energy, nutrient and food content of snacks in french adults}.
+\bjtitle{Nutrition Journal}
+\bvolume{17}(\bissue{1}),
+\bfpage{33}
+(\byear{2018})
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{FayetMoore2017}
 \begin{botherref}
-\oauthor{\bsnm{{ISSN International Centre}}}:
-The ISSN register
-(2006).
-\url{http://www.issn.org}
-Accessed Accessed 20 Feb 2007
+\oauthor{\bsnm{Fayet-Moore}, \binits{F.}},
+\oauthor{\bsnm{McConnell}, \binits{A.}},
+\oauthor{\bsnm{Kim}, \binits{J.}},
+\oauthor{\bsnm{Mathias}, \binits{K.C.}}:
+Identifying eating occasion-based opportunities to improve the overall diets of
+  australian adolescents.
+Nutrients
+\textbf{9}
+(2017).
+doi:\doiurl{10.3390/nu9060608}
 \end{botherref}
 \endbibitem
 
@@ -885,74 +908,100 @@ Accessed Accessed 20 Feb 2007
 </bibl>
 
 <bibl id="B26">
-  <title><p>BRCA1 protein products: functional motifs</p></title>
+  <title><p>{Second-meal effect: low-glycemic-index foods eaten at dinner
+  improve subsequent breakfast glycemic response}</p></title>
   <aug>
-    <au><snm>Koonin</snm><fnm>E V</fnm></au>
-    <au><snm>Altschul</snm><fnm>S F</fnm></au>
-    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Wolever</snm><fnm>T M</fnm></au>
+    <au><snm>Jenkins</snm><fnm>D J</fnm></au>
+    <au><snm>Ocana</snm><fnm>A M</fnm></au>
+    <au><snm>Rao</snm><fnm>V A</fnm></au>
+    <au><snm>Collier</snm><fnm>G R</fnm></au>
   </aug>
-  <source>Nat. Genet.</source>
-  <pubdate>1996</pubdate>
-  <volume>13</volume>
-  <fpage>266</fpage>
-  <lpage>267</lpage>
+  <source>The American Journal of Clinical Nutrition</source>
+  <pubdate>1988</pubdate>
+  <volume>48</volume>
+  <issue>4</issue>
+  <fpage>1041</fpage>
+  <lpage>1047</lpage>
+  <url>https://doi.org/10.1093/ajcn/48.4.1041</url>
 </bibl>
 
 <bibl id="B27">
-  <title><p>Zeolites and synthetic mechanisms</p></title>
+  <title><p>High or low glycemic index (GI) meals at dinner results in greater
+  postprandial glycemia compared with breakfast: a randomized controlled
+  trial.</p></title>
   <aug>
-    <au><snm>Jones</snm><fnm>X</fnm></au>
+    <au><snm>Haldar</snm><fnm>S</fnm></au>
+    <au><snm>Egli</snm><fnm>L</fnm></au>
+    <au><snm>De Castro</snm><fnm>CA</fnm></au>
+    <au><snm>Tay</snm><fnm>SL</fnm></au>
+    <au><snm>Koh</snm><fnm>MXN</fnm></au>
+    <au><snm>Darimont</snm><fnm>C</fnm></au>
+    <au><snm>Mace</snm><fnm>K</fnm></au>
+    <au><snm>Henry</snm><fnm>CJ</fnm></au>
   </aug>
-  <source>Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore</source>
-  <editor>Y Smith</editor>
-  <pubdate>1996</pubdate>
-  <fpage>16</fpage>
-  <lpage>27</lpage>
+  <source>BMJ open diabetes research \& care</source>
+  <pubdate>2020</pubdate>
+  <volume>8</volume>
 </bibl>
 
 <bibl id="B28">
-  <title><p>Origin of Eukaryotic Cells</p></title>
+  <title><p>Impact of different timing of consuming sweet snack on postprandial
+  glucose excursions in healthy women.</p></title>
   <aug>
-    <au><snm>Margulis</snm><fnm>L</fnm></au>
+    <au><snm>Nitta</snm><fnm>A.</fnm></au>
+    <au><snm>Imai</snm><fnm>S.</fnm></au>
+    <au><snm>Kajiyama</snm><fnm>S.</fnm></au>
+    <au><snm>Miyawaki</snm><fnm>T.</fnm></au>
+    <au><snm>Matsumoto</snm><fnm>S.</fnm></au>
+    <au><snm>Ozasa</snm><fnm>N.</fnm></au>
+    <au><snm>Kajiyama</snm><fnm>S.</fnm></au>
+    <au><snm>Hashimoto</snm><fnm>Y.</fnm></au>
+    <au><snm>Tanaka</snm><fnm>M.</fnm></au>
+    <au><snm>Fukui</snm><fnm>M.</fnm></au>
   </aug>
-  <publisher>New Haven: Yale University Press</publisher>
-  <pubdate>1970</pubdate>
+  <source>Diabetes \& metabolism</source>
+  <pubdate>2019</pubdate>
+  <volume>45</volume>
+  <fpage>369</fpage>
+  <lpage>-374</lpage>
 </bibl>
 
 <bibl id="B29">
-  <title><p>From prey via endosymbiont to plastids: comparative studies in
-  dinoflagellates</p></title>
+  <title><p>Energy, nutrient and food content of snacks in French
+  adults</p></title>
   <aug>
-    <au><snm>Schnepf</snm><fnm>E</fnm></au>
+    <au><snm>Hassen</snm><fnm>WS</fnm></au>
+    <au><snm>Castetbon</snm><fnm>K</fnm></au>
+    <au><snm>Tichit</snm><fnm>C</fnm></au>
+    <au><snm>P{\'e}neau</snm><fnm>S</fnm></au>
+    <au><snm>Nechba</snm><fnm>A</fnm></au>
+    <au><snm>Ducrot</snm><fnm>P</fnm></au>
+    <au><snm>Lampur{\'e}</snm><fnm>A</fnm></au>
+    <au><snm>Bellisle</snm><fnm>F</fnm></au>
+    <au><snm>Hercberg</snm><fnm>S</fnm></au>
+    <au><snm>M{\'e}jean</snm><fnm>C</fnm></au>
   </aug>
-  <source>Origins of Plastids</source>
-  <publisher>New York: Chapman and Hall</publisher>
-  <editor>R A Lewin</editor>
-  <edition>2</edition>
-  <pubdate>1993</pubdate>
-  <fpage>53</fpage>
-  <lpage>76</lpage>
+  <source>Nutrition Journal</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2018</pubdate>
+  <volume>17</volume>
+  <issue>1</issue>
+  <fpage>33</fpage>
 </bibl>
 
 <bibl id="B30">
-  <title><p>Wrappers for performance enhancement and obvious decision
-  graphs</p></title>
+  <title><p>Identifying Eating Occasion-Based Opportunities to Improve the
+  Overall Diets of Australian Adolescents.</p></title>
   <aug>
-    <au><snm>Kohavi</snm><fnm>R</fnm></au>
+    <au><snm>Fayet Moore</snm><fnm>F</fnm></au>
+    <au><snm>McConnell</snm><fnm>A</fnm></au>
+    <au><snm>Kim</snm><fnm>J</fnm></au>
+    <au><snm>Mathias</snm><fnm>KC</fnm></au>
   </aug>
-  <source>PhD thesis</source>
-  <publisher>Stanford University, Computer Science Department</publisher>
-  <pubdate>1995</pubdate>
-</bibl>
-
-<bibl id="B31">
-  <title><p>The ISSN register</p></title>
-  <aug>
-    <au><cnm>{ISSN International Centre}</cnm></au>
-  </aug>
-  <pubdate>2006</pubdate>
-  <url>http://www.issn.org</url>
+  <source>Nutrients</source>
+  <pubdate>2017</pubdate>
+  <volume>9</volume>
 </bibl>
 
 </refgrp>
