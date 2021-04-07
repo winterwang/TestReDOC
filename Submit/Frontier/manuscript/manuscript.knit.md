@@ -82,7 +82,8 @@ also be automatically reference. Multiple references are separated by semicolons
 
 You can use `R` chunks directly to plot graphs.  
 
-```{r graph, echo = TRUE, message=FALSE, fig.show = "hide"}
+
+```r
 x <- 0:100
 set.seed(999)
 y <- 2 * (x + rnorm(length(x), sd = 3) + 3)
@@ -179,7 +180,12 @@ compiling it again using the traditional LaTeX commands.
 
 # Figures {-}
 
-```{r, Figure-1, ref.label = "graph", results = "hide", echo = FALSE, message = FALSE, fig.height=4, fig.width=4, fig.align='center', fig.cap='Figure caption', out.width = "85mm", out.height = "85mm"}
-# You can also refer to code chunks from above to place figures at the bottom.
-```
+\begin{figure}
+
+{\centering \includegraphics[width=85mm,height=85mm]{manuscript_files/figure-latex/Figure-1-1} 
+
+}
+
+\caption{Figure caption}\label{fig:Figure-1}
+\end{figure}
 
