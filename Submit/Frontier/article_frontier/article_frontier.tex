@@ -72,6 +72,31 @@
 %% END MACROS SECTION
 
 % Pandoc citation processing
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+% for Pandoc 2.8 to 2.10.1
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+% For Pandoc 2.11+
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc} % for calculating minipage widths
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \usepackage{color}
 \usepackage{fancyvrb}
@@ -115,36 +140,30 @@
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 
 \def\Authors{
-  Chaochen Wang\,\textsuperscript{1},
-  Suzana Almoosawi\,\textsuperscript{2},
-  Luigi Palla\,\textsuperscript{3,4,5*}}
+  First Author\,\textsuperscript{1},
+  Co-Author\,\textsuperscript{2},
+  Co-Author\,\textsuperscript{1,3*}}
 
 \def\Address{
 
-  \textsuperscript{1} Department of Public Health, Aichi Medical
-University,  Nagakute,  Aichi,  Japan
+  \textsuperscript{1} Department X, Institution X,  City X,  State
+XX,  Country X
   
-  \textsuperscript{2} Faculty of Medicine, School of Public
-Health, Imperial College London,  London,   UK
+  \textsuperscript{2} Department X, Institution X,  City X,  State
+XX,  Country X
   
-  \textsuperscript{3} Department of Public Health and Infectious
-Diseases, University of Rome La Sapienza,  Rome,   Italy
-  
-  \textsuperscript{4} Department of Medical Statistics, London School of
-Hygiene Tropical Medicine,  London,   UK
-  
-  \textsuperscript{5} Department of Global Health, School of Tropical
-Medicine and Global Health, University of Nagasaki,  Nagasaki,   Japan
+  \textsuperscript{3} Department X, Institution X,  City X,  State
+XX,  Country X
   }
 
   
-  \def\firstAuthorLast{WANG {et~al.}}
+  \def\firstAuthorLast{LASTNAME {et~al.}}
   
   
-  \def\corrAuthor{Luigi Palla}\def\corrAddress{Department of Public
-Health and Infectious Diseases, University of Rome La Sapienza\\Piazzale
-Aldo Moro
-5\\Rome, 00185 Italy}\def\corrEmail{\href{mailto:Luigi.Palla@uniroma1.it}{\nolinkurl{Luigi.Palla@uniroma1.it}}}
+  \def\corrAuthor{Co-Author}\def\corrAddress{Laboratory X, Institute X,
+Department X, Organization X\\Street X\\City X, State XX, Zip Code
+X Country
+X}\def\corrEmail{\href{mailto:email@uni.edu}{\nolinkurl{email@uni.edu}}}
   
 
 
@@ -152,9 +171,7 @@ Aldo Moro
 \onecolumn
 \firstpage{1}
 
-\title[]{Relationships between food groups and eating time slots
-according to diabetes status in adults from the UK National Diet and
-Nutrition Survey (2008--2017)}
+\title[Short Title]{Article Title}
 \author[\firstAuthorLast]{\Authors}
 \address{} %This field will be automatically populated
 \correspondance{} %This field will be automatically populated
@@ -167,14 +184,11 @@ Nutrition Survey (2008--2017)}
 
 \begin{abstract}
 
-\parttitle{Background} %if any
-Time of eating has been shown to be associated with diabetes and obesity but little is known about less healthy foods and specific time of their intake over the 24 hours of the day. In this study we aimed to identify potential relationships between foods and their eating time, and see whether these associations may vary by diabetes status.
-\parttitle{Method} %if any
-The National Diet and Nutrition Survey (NDNS) including 6802 adults (age $\geq$ 19 years old) collected 749,026 food recordings by a 4-day-diary. The contingency table cross-classifying 60 food groups with 7 pre-defined eating time slots (6-9am, 9am-12pm, 12-2pm, 2-5pm, 8-10pm, 10pm-6am) was analyzed by Correspondence Analysis (CA). CA biplots displaying the associations were generated for all adults and separately by diabetes status (self-reported, pre-diabetes, undiagnosed-diabetes, and non-diabetics) to visually explore the associations between food groups and time of eating across diabetes strata. For selected food groups, odds ratios (OR, 99\% confidence intervals, CI) were derived of consuming unhealthy foods at evening/night (8pm-6am) vs. earlier time in the day, by logistic regression models with generalized estimating equations.
-\parttitle{Results} 
-The biplots suggested positive associations between evening/night and consumption of puddings, regular soft drinks, sugar confectioneries, chocolates, spirits, beers, ice cream, biscuits, and crisps for all adults in the UK. The OR (99\% CIs) of consuming these foods at evening/night were respectively 1.38 (1.03, 1.86), 1.74 (1.47, 2.06), 1.92 (1.38, 2.69), 3.19 (2.69, 3.79), 11.13 (8.37, 14.80), 7.19 (5.87, 8.82), 2.38 (1.79, 3.15), 1.91 (1.67, 2.16), 1.55 (1.27, 1.88) vs. earlier time in the day. Stratified biplots found that sweetened beverages, sugar-confectioneries appeared more strongly associated with evening/night among un-diagnosed diabetics. 
-\parttitle{Conclusions}
-Foods consumed in the evening/night time tend to be highly processed, easily accessible, and rich in added sugar or saturated fat. Individuals with undiagnosed diabetes are more likely to consume unhealthy foods at night. Further longitudinal studies are required to ascertain the causal direction of the association between late-eating and diabetes status.
+Abstract length and content varies depending on article type. Refer to 
+\url{http://www.frontiersin.org/about/AuthorGuidelines} for abstract requirement
+and length according to article type.
+
+%All article types: you may provide up to 8 keywords; at least 5 are mandatory.
 \tiny
  \keyFont{ \section{Keywords:} Text Text Text Text Text Text Text Text } 
 
@@ -184,10 +198,10 @@ Foods consumed in the evening/night time tend to be highly processed, easily acc
 \section*{Introduction}\label{introduction}}
 \addcontentsline{toc}{section}{Introduction}
 
-Cite fancy references (\textbf{Neuro2013?}). As demonstrated in
-(\textbf{Gene2012?}), citations can also be automatically reference.
-Multiple references are separated by semicolons (\textbf{Neuro2013?};
-\textbf{Neurobot2013?}).
+Cite fancy references (LastName1 et al., 2013). As demonstrated in
+OtherAuthor and Coauthor (2012), citations can also be automatically
+reference. Multiple references are separated by semicolons (LastName1 et
+al., 2013; Author4 and Author5, 2013).
 
 \hypertarget{results}{%
 \section*{Results}\label{results}}
@@ -274,11 +288,30 @@ traditional LaTeX commands.
 
 \begin{figure}
 
-{\centering \includegraphics[width=85mm,height=85mm]{manuscript_files/figure-latex/Figure-1-1} 
+{\centering \includegraphics[width=85mm,height=85mm]{article_frontier_files/figure-latex/Figure-1-1} 
 
 }
 
 \caption{Figure caption}\label{fig:Figure-1}
 \end{figure}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-Neurobot2013}{}%
+Author4, N., and Author5, N. (2013). Title of the article.
+\emph{Frontiers in Neurorobotics} 7.
+doi:\href{https://doi.org/10.3389/fnbot.2013.56789}{10.3389/fnbot.2013.56789}.
+
+\leavevmode\hypertarget{ref-Neuro2013}{}%
+LastName1, A., LastName2, A., and LastName2, A. (2013). Article title.
+\emph{Frontiers in Neuroscience} 30, 10127--10134.
+doi:\href{https://doi.org/10.3389/fnins.2013.12345}{10.3389/fnins.2013.12345}.
+
+\leavevmode\hypertarget{ref-Gene2012}{}%
+OtherAuthor, N., and Coauthor, N. S. (2012). Article title.
+\emph{Frontiers in Genetics} 30, 16417--16418.
+doi:\href{https://doi.org/10.3389/fgene.2012.54321}{10.3389/fgene.2012.54321}.
+
+\end{CSLReferences}
 
 \end{document}
