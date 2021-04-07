@@ -5,7 +5,7 @@ documentclass: frontiersSCNS  # or frontiersHLTH, or frontiersFPHY
 author:
   - name: Chaochen Wang
     affiliation: '1'
-    etal: LASTNAME # First author's last name. 
+    etal: WANG # First author's last name. 
   - name: Co-Author
     affiliation: '2'
   - name: Co-Author
