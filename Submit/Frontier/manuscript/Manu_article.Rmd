@@ -38,7 +38,7 @@ affiliation:
     country: Italy
   - id: '4' 
     department: Department of Medical Statistics
-    institution: London School of Hygiene  Tropical Medicine
+    institution: London School of Hygiene \& Tropical Medicine
     city: London
     # state: State XX # only USA, Australia, Canada
     country: UK
