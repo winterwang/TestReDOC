@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  7 APR 2021 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  8 APR 2021 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,7 +678,7 @@ ap} <./logo1.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 227.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 226.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
@@ -703,12 +703,12 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 [7]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 5
-95.
+94.
 (/Users/chaoimacmini/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 595.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 594.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
@@ -725,13 +725,13 @@ Package rerunfilecheck Info: File `Manu_article.out' has not changed.
 (rerunfilecheck)             Checksum: 544CE6DB67DCFEE9DC059FBC7DF2D6E7;1366.
  ) 
 Here is how much of TeX's memory you used:
- 15663 strings out of 480954
- 238608 string characters out of 5906106
- 600005 words of memory out of 5000000
+ 15664 strings out of 480954
+ 238617 string characters out of 5906106
+ 600048 words of memory out of 5000000
  32267 multiletter control sequences out of 15000+600000
- 446238 words of font info for 248 fonts, out of 8000000 for 9000
+ 446286 words of font info for 249 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 98i,10n,131p,1210b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,10n,131p,2228b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.13} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -778,7 +778,7 @@ nyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></Users/chaoimacmini/Libr
 ary/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/chaoimacmini/Li
 brary/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/chaoimacmini/
 Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Manu_article.pdf (9 pages, 177317 bytes).
+Output written on Manu_article.pdf (9 pages, 177347 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  190 compressed objects within 2 object streams
