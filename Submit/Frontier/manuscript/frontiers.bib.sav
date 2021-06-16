@@ -1,0 +1,551 @@
+% Encoding: UTF-8
+% bmc_article.bib
+% 
+%  An example of bibtex entries.
+%  Entries taken from BMC instructions for authors page.
+
+% uncomment next line to make author-year bibliography
+% @settings{label, options="nameyear"}
+
+@article{blank,
+    author  = {}, 
+    title   = {},
+    journal = {}, 
+    year    = {},
+    month   = {}, 
+    volume  = {}, 
+    number  = {}, 
+    pages   = {},
+    note    = {} 
+}    
+
+% Article within a journal
+@article{koon,
+    author  = {Koonin, E V and Altschul, S F and P Bork}, 
+    title   = {BRCA1 protein products: functional motifs}, 
+    journal = {Nat. Genet.}, 
+    year    = {1996},
+    volume  = {13}, 
+    pages   = {266-267}
+}    
+
+%%%%%%%%
+% Article within conference proceedings
+@inproceedings{xjon,
+    author    = {X Jones}, 
+    title     = {Zeolites and synthetic mechanisms},
+    booktitle = {Proceedings of the First National Conference on 
+                Porous Sieves: 27-30 June 1996; Baltimore},
+    year      = {1996},
+    editor    = {Y Smith}, 
+    pages     = {16-27},
+}    
+
+%%%%%%%%
+%  Book chapter, or article within a book
+@incollection{schn,
+    author    = {E Schnepf}, 
+    title     = {From prey via endosymbiont to plastids: 
+             comparative studies in dinoflagellates},
+    booktitle = {Origins of Plastids}, 
+    editor    = {R A Lewin}, 
+    publisher = {Chapman and Hall},
+    pages     = {53-76}, 
+    year      = {1993},
+    address = {New York}, 
+    edition = {2nd} 
+}    
+
+%%%%%%%%
+% Complete book
+@book{marg,
+    author    = {L Margulis}, 
+    title     = {Origin of Eukaryotic Cells},
+    publisher = {Yale University Press}, 
+    year      = {1970},
+    address   = {New Haven} 
+}
+
+
+%%%%%%%%
+% PHD Thesis
+@phdthesis{koha,
+    author = {R Kohavi}, 
+    title  = {Wrappers for performance enhancement and
+             obvious decision graphs},
+    school = {Stanford University, Computer Science Department},
+    year   = {1995}
+}
+
+%%%%%%%%
+%  Miscellaneous: webpage link/urL, etc/
+@misc{issnic,
+    author  = {{ISSN International Centre}},
+    title = {The ISSN register},
+    url = {http://www.issn.org},
+    year = {2006},
+    urldate={Accessed 20 Feb 2007}
+}
+
+@Article{almoosawi2016chrono,
+  author    = {Almoosawi, S and Vingeliene, S and Karagounis, LG and Pot, GK},
+  journal   = {Proc Nutr Soc},
+  title     = {Chrono-nutrition: a review of current evidence from observational studies on global trends in time-of-day of energy intake and its association with obesity},
+  year      = {2016},
+  number    = {4},
+  pages     = {487--500},
+  volume    = {75},
+  owner     = {wangcc.me},
+  publisher = {Cambridge University Press},
+  timestamp = {2021-02-24},
+}
+
+@Article{xiao2019meal,
+  author    = {Xiao, Qian and Garaulet, Marta and Scheer, Frank AJL},
+  journal   = {International Journal of Obesity},
+  title     = {Meal timing and obesity: Interactions with macronutrient intake and chronotype},
+  year      = {2019},
+  number    = {9},
+  pages     = {1701--1711},
+  volume    = {43},
+  owner     = {wangcc.me},
+  publisher = {Nature Publishing Group},
+  timestamp = {2021-02-24},
+}
+
+@Article{yoshida2018association,
+  author    = {Yoshida, Junko and Eguchi, Eri and Nagaoka, Kenjiro and Ito, Tatsuo and Ogino, Keiki},
+  journal   = {BMC Public Health},
+  title     = {Association of night eating habits with metabolic syndrome and its components: a longitudinal study},
+  year      = {2018},
+  number    = {1},
+  pages     = {1366},
+  volume    = {18},
+  owner     = {wangcc.me},
+  publisher = {Springer},
+  timestamp = {2021-02-24},
+}
+
+@Article{nakajima2015association,
+  author    = {Nakajima, Kei and Suwa, Kaname},
+  journal   = {Journal of Diabetes \& Metabolic Disorders},
+  title     = {Association of hyperglycemia in a general Japanese population with late-night-dinner eating alone, but not breakfast skipping alone},
+  year      = {2015},
+  number    = {1},
+  pages     = {16},
+  volume    = {14},
+  owner     = {wangcc.me},
+  publisher = {BioMed Central},
+  timestamp = {2021-02-24},
+}
+
+@Article{mattson2014meal,
+  author    = {Mattson, Mark P and Allison, David B and Fontana, Luigi and Harvie, Michelle and Longo, Valter D and Malaisse, Willy J and Mosley, Michael and Notterpek, Lucia and Ravussin, Eric and Scheer, Frank AJL and others},
+  journal   = {Proceedings of the National Academy of Sciences},
+  title     = {Meal frequency and timing in health and disease},
+  year      = {2014},
+  number    = {47},
+  pages     = {16647--16653},
+  volume    = {111},
+  owner     = {wangcc.me},
+  publisher = {National Acad Sciences},
+  timestamp = {2021-02-24},
+}
+
+@Article{kutsuma2014potential,
+  author    = {Kutsuma, Ayano and Nakajima, Kei and Suwa, Kaname},
+  journal   = {Scientifica},
+  title     = {Potential association between breakfast skipping and concomitant late-night-dinner eating with metabolic syndrome and proteinuria in the Japanese population},
+  year      = {2014},
+  volume    = {2014},
+  owner     = {wangcc.me},
+  publisher = {Hindawi},
+  timestamp = {2021-02-24},
+}
+
+@Article{sakai2017late,
+  author    = {Sakai, Ryosuke and Hashimoto, Yoshitaka and Ushigome, Emi and Miki, Akane and Okamura, Takuro and Matsugasumi, Masako and Fukuda, Takuya and Majima, Saori and Matsumoto, Shinobu and Senmaru, Takafumi and others},
+  journal   = {Endocrine journal},
+  title     = {Late-night-dinner is associated with poor glycemic control in people with type 2 diabetes: The KAMOGAWA-DM cohort study},
+  year      = {2017},
+  pages     = {EJ17--0414},
+  owner     = {wangcc.me},
+  publisher = {The Japan Endocrine Society},
+  timestamp = {2021-02-24},
+}
+
+@Article{balieiro2014nutritional,
+  author    = {Balieiro, Laura Cristina Tibiletti and Rossato, Luana Thomazetto and Waterhouse, Jim and Paim, Samantha Lemos and Mota, Maria Carliana and Crispim, Cibele Aparecida},
+  journal   = {Chronobiology international},
+  title     = {Nutritional status and eating habits of bus drivers during the day and night},
+  year      = {2014},
+  number    = {10},
+  pages     = {1123--1129},
+  volume    = {31},
+  owner     = {wangcc.me},
+  publisher = {Taylor \& Francis},
+  timestamp = {2021-02-24},
+}
+
+@Article{barbadoro2013rotating,
+  author    = {Barbadoro, Pamela and Santarelli, Lory and Croce, Nicola and Bracci, Massimo and Vincitorio, Daniela and Prospero, Emilia and Minelli, Andrea},
+  journal   = {PLoS One},
+  title     = {Rotating shift-work as an independent risk factor for overweight Italian workers: a cross-sectional study},
+  year      = {2013},
+  number    = {5},
+  volume    = {8},
+  owner     = {wangcc.me},
+  publisher = {Public Library of Science},
+  timestamp = {2021-02-24},
+}
+
+@Article{pan2011rotating,
+  author    = {Pan, An and Schernhammer, Eva S and Sun, Qi and Hu, Frank B},
+  journal   = {PLoS Med},
+  title     = {Rotating night shift work and risk of type 2 diabetes: two prospective cohort studies in women},
+  year      = {2011},
+  number    = {12},
+  pages     = {e1001141},
+  volume    = {8},
+  owner     = {wangcc.me},
+  publisher = {Public Library of Science},
+  timestamp = {2021-02-24},
+}
+
+@Article{bonnell2017influences,
+  author    = {Bonnell, Emily K and Huggins, Catherine E and Huggins, Chris T and McCaffrey, Tracy A and Palermo, Claire and Bonham, Maxine P},
+  journal   = {Nutrients},
+  title     = {Influences on dietary choices during day versus night shift in shift workers: a mixed methods study},
+  year      = {2017},
+  number    = {3},
+  pages     = {193},
+  volume    = {9},
+  owner     = {wangcc.me},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  timestamp = {2021-02-24},
+}
+
+@Misc{MRCElsieWiddowsonLaboratory2018,
+  author    = {{MRC Elsie Widdowson Laboratory} and {NatCen Social Research}},
+  title     = {National Diet and Nutrition Survey Years 1-8, 2008/09-2015/16 [data collection]},
+  year      = {2018},
+  doi       = {\url{10.5255/ukda-sn-6533-11}},
+  edition   = {11th Edition},
+  owner     = {wangcc.me},
+  publisher = {UK Data Service. SN: 6533},
+  timestamp = {2021-02-24},
+}
+
+@Misc{bates2014national,
+  author    = {Bates, Beverley and Lennox, Alison and Prentice, Ann and Bates, Christopher J and Page, Polly and Nicholson, Sonja and Swan, Gillian},
+  publisher = {Public Health England},
+  title     = {National {D}iet and {N}utrition {S}urvey: Results from Years 1, 2, 3 and 4 (combined) of the {R}olling {P}rogramme (2008/2009-2011/2012): A survey carried out on behalf of {P}ublic {H}ealth {E}ngland and the {F}ood {S}tandards {A}gency},
+  year      = {2014},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+}
+
+@Article{roberts2018national,
+  author    = {Roberts, Caireen and Steer, Toni and Maplethorpe, Natalie and Cox, Lorna and Meadows, Sarah and Nicholson, Sonja and Page, Polly and Swan, Gillian},
+  title     = {National {D}iet and {N}utrition {S}urvey: results from years 7 and 8 (combined) of the {R}olling {P}rogramme (2014/2015--2015/2016)},
+  year      = {2018},
+  owner     = {wangcc.me},
+  publisher = {Public Health England},
+  timestamp = {2021-02-24},
+}
+
+@Misc{NDNSdatabase2018,
+  author    = {{NatCen Social Research, MRC Elsie Widdowson Laboratory, Univeristy College London. Medical School.}},
+  note      = {\url{http://doi.org/10.5255/UKDA-SN-6533-8}},
+  title     = {National Diet and Nutrition Survey Years 1-8, 2008/09-2015/16},
+  year      = {2018},
+  edition   = {9th Edition},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+}
+
+@Book{rose2005national,
+  author    = {Rose, David and Pevalin, David J},
+  title     = {The National Statistics Socio-economic Classification: origins, development and use},
+  year      = {2005},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+}
+
+@Book{greenacre2017correspondence,
+  author    = {Greenacre, Michael},
+  publisher = {Chapman and Hall},
+  title     = {Correspondence analysis in practice},
+  year      = {2017},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+    address = {New York}, 
+}
+
+@Article{Chapman2017,
+  author    = {Chapman, Andrew N and Beh, Eric J and Palla, Luigi},
+  title     = {Application of Correspondence Analysis to Graphically Investigate Associations Between Foods and Eating Locations.},
+  year      = {2017},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+}
+
+@Article{palla2020adolescents,
+  author    = {Palla, Luigi and Chapman, Andrew and Beh, Eric and Pot, Gerda and Almiron-Roig, Eva},
+  journal   = {Nutrients},
+  title     = {Where Do Adolescents Eat Less-Healthy Foods? Correspondence Analysis and Logistic Regression Results from the UK National Diet and Nutrition Survey},
+  year      = {2020},
+  number    = {8},
+  pages     = {2235},
+  volume    = {12},
+  owner     = {wangcc.me},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  timestamp = {2021-02-24},
+}
+
+@Manual{Rcoreteam,
+  title        = {R: A Language and Environment for Statistical Computing},
+  address      = {Vienna, Austria},
+  author       = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  year         = {2019},
+  owner        = {wangcc.me},
+  timestamp    = {2021-02-24},
+  url          = {https://www.R-project.org/},
+}
+
+@Article{L__2008,
+  author    = {S\'ebastien L\^e and Julie Josse and Fran\c{c}ois Husson},
+  journal   = {Journal of Statistical Software},
+  title     = {{FactoMineR}: A Package for Multivariate Analysis},
+  year      = {2008},
+  number    = {1},
+  pages     = {1--18},
+  volume    = {25},
+  doi       = {10.18637/jss.v025.i01},
+  owner     = {wangcc.me},
+  publisher = {Foundation for Open Access Statistic},
+  timestamp = {2021-02-24},
+}
+
+@Manual{factoextra,
+  title     = {factoextra: Extract and Visualize the Results of Multivariate Data Analyses},
+  author    = {Alboukadel Kassambara and Fabian Mundt},
+  note      = {R package version 1.0.6},
+  year      = {2019},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+  url       = {https://CRAN.R-project.org/package=factoextra},
+}
+
+@Book{ggplot2,
+  author    = {Hadley Wickham},
+  publisher = {Springer-Verlag},
+  title     = {ggplot2: Elegant Graphics for Data Analysis},
+  year      = {2016},
+  isbn      = {978-3-319-24277-4},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+  url       = {https://ggplot2.tidyverse.org},
+  address   = {New York},
+}
+
+@Manual{ggrepel,
+  title     = {ggrepel: Automatically Position Non-Overlapping Text Labels with 'ggplot2'},
+  author    = {Kamil Slowikowski},
+  note      = {R package version 0.8.1},
+  year      = {2019},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+  url       = {https://CRAN.R-project.org/package=ggrepel},
+}
+
+@Book{SAS94,
+  author    = {{SAS Institute}},
+  publisher = {SAS Institute Inc.},
+  title     = {SAS 9.4 Language Reference: Concepts},
+  year      = {2013},
+  address   = {USA},
+  isbn      = {1612905641},
+  owner     = {wangcc.me},
+  timestamp = {2021-02-24},
+}
+
+
+
+@Article{Wolever1988,
+  author   = {Wolever, T M and Jenkins, D J and Ocana, A M and Rao, V A and Collier, G R},
+  journal  = {The American Journal of Clinical Nutrition},
+  title    = {{Second-meal effect: low-glycemic-index foods eaten at dinner improve subsequent breakfast glycemic response}},
+  year     = {1988},
+  issn     = {0002-9165},
+  month    = {10},
+  number   = {4},
+  pages    = {1041-1047},
+  volume   = {48},
+  abstract = {{The effects of the glycemic index (GI) of carbohydrate eaten the previous night on the glycemic response to a standard test meal eaten subsequently in the morning (breakfast) was studied. On separate evenings normal subjects ate low- or high-GI test meals of the same nutrient composition. The dinners consisted of single foods in two experiments and mixed meals containing several foods in the third. The differences between the observed glycemic responses to low- and high-GI dinners were predicted by their GIs. The glycemic responses to breakfast were significantly lower on mornings after low-GI dinners than after high-GI dinners. Eating, at dinner, foods with different fiber contents but the same GI had no effect on postbreakfast glycemia. We conclude that the GI predicts the difference between glycemic responses of mixed dinner meals; breakfast carbohydrate tolerance is improved when low-GI foods are eaten the previous evening.}},
+  doi      = {10.1093/ajcn/48.4.1041},
+  eprint   = {https://academic.oup.com/ajcn/article-pdf/48/4/1041/24065765/1041.pdf},
+  url      = {https://doi.org/10.1093/ajcn/48.4.1041},
+}
+
+
+
+@Article{Haldar2020,
+  author          = {Haldar, Sumanto and Egli, Leonie and De Castro, Carlos Antonio and Tay, Shia Lyn and Koh, Melvin Xu Nian and Darimont, Christian and Mace, Katherine and Henry, Christiani Jeyakumar},
+  journal         = {BMJ open diabetes research \& care},
+  title           = {High or low glycemic index (GI) meals at dinner results in greater postprandial glycemia compared with breakfast: a randomized controlled trial.},
+  year            = {2020},
+  issn            = {2052-4897},
+  month           = apr,
+  volume          = {8},
+  abstract        = {},
+  citation-subset = {IM},
+  country         = {England},
+  doi             = {10.1136/bmjdrc-2019-001099},
+  file            = {:Refpdf/e001099.full.pdf:PDF},
+  issn-linking    = {2052-4897},
+  issue           = {1},
+  keywords        = {circadian rhythm(s); glycemic control; glycemic index diet; type 2 diabetes},
+  nlm-id          = {101641391},
+  owner           = {NLM},
+  pii             = {e001099},
+  pmc             = {PMC7202752},
+  pmid            = {32327444},
+  pubmodel        = {Print},
+  pubstate        = {ppublish},
+  revised         = {2020-11-06},
+  timestamp       = {2021-03-02},
+}
+
+
+
+@Article{Nitta2019,
+  author          = {Nitta, A. and Imai, S. and Kajiyama, S. and Miyawaki, T. and Matsumoto, S. and Ozasa, N. and Kajiyama, S. and Hashimoto, Y. and Tanaka, M. and Fukui, M.},
+  journal         = {Diabetes \& metabolism},
+  title           = {Impact of different timing of consuming sweet snack on postprandial glucose excursions in healthy women.},
+  year            = {2019},
+  issn            = {1878-1780},
+  month           = sep,
+  pages           = {369--374},
+  volume          = {45},
+  abstract        = {},
+  chemicals       = {Blood Glucose, Dietary Sugars},
+  citation-subset = {IM},
+  completed       = {2020-01-31},
+  country         = {France},
+  doi             = {10.1016/j.diabet.2018.10.004},
+  file            = {:Refpdf/e6acc415c23150b43652101ef60237d4.pdf:PDF},
+  issn-linking    = {1262-3636},
+  issue           = {4},
+  keywords        = {Adult; Blood Glucose, drug effects, metabolism; Blood Glucose Self-Monitoring, methods; Circadian Rhythm, physiology; Cross-Over Studies; Dietary Sugars, pharmacology; Female; Healthy Volunteers; Humans; Postprandial Period, drug effects; Snacks, physiology; Time Factors; Young Adult; Diet; Flash glucose monitoring; Glucose excursions; Snacking},
+  nlm-id          = {9607599},
+  owner           = {NLM},
+  pii             = {S1262-3636(18)30215-5},
+  pmid            = {30391714},
+  pubmodel        = {Print-Electronic},
+  pubstate        = {ppublish},
+  revised         = {2020-01-31},
+  timestamp       = {2021-03-02},
+}
+
+
+@article{price1997characteristics,
+  title={Characteristics of the low-energy reporters in a longitudinal national dietary survey},
+  author={Price, GM and Paul, AA and Cole, TJ and Wadsworth, ME J},
+  journal={British Journal of Nutrition},
+  volume={77},
+  number={6},
+  pages={833--851},
+  year={1997},
+  publisher={Cambridge University Press}
+}
+
+@article{bingham2001nutritional,
+  title={Nutritional methods in the European prospective investigation of cancer in Norfolk},
+  author={Bingham, Sheila A and Welch, Ailsa A and McTaggart, Alison and Mulligan, Angela A and Runswick, Shirley A and Luben, Robert and Oakes, Suzy and Khaw, Kay Tee and Wareham, Nicholas and Day, Nicholas E},
+  journal={Public health nutrition},
+  volume={4},
+  number={3},
+  pages={847--858},
+  year={2001},
+  publisher={Cambridge University Press}
+}
+
+@article{cade2004uk,
+  title={The UK Women's Cohort Study: comparison of vegetarians, fish-eaters and meat-eaters},
+  author={Cade, Janet E and Burley, Victoria J and Greenwood, Darren C and UK Women's Cohort Study Steering Group and others},
+  journal={Public health nutrition},
+  volume={7},
+  number={7},
+  pages={871--878},
+  year={2004},
+  publisher={Cambridge University Press}
+}
+
+@article{almoosawi2014biomarkers,
+  title={Biomarkers of diabetes risk in the National Diet and Nutrition Survey rolling programme (2008--2011)},
+  author={Almoosawi, S and Cole, D and Nicholson, S and Bayes, I and Teucher, B and Bates, B and Mindell, J and Tipping, S and Deverill, C and Stephen, AM},
+  journal={J Epidemiol Community Health},
+  volume={68},
+  number={1},
+  pages={51--56},
+  year={2014},
+  publisher={BMJ Publishing Group Ltd}
+}
+
+
+@article{glynn2005food,
+  title={Food and nutrient intakes of a population sample of 7-year-old children in the south-west of England in 1999/2000--what difference does gender make?},
+  author={Glynn, L and Emmett, P and Rogers, Imogen and ALSPAC Study Team},
+  journal={Journal of Human Nutrition and Dietetics},
+  volume={18},
+  number={1},
+  pages={7--19},
+  year={2005},
+  publisher={Wiley Online Library}
+}
+
+
+@Article{Hassen2018,
+  author    = {Hassen, Wendy Si and Castetbon, Katia and Tichit, Christine and P{\'e}neau, Sandrine and Nechba, Anouar and Ducrot, Pauline and Lampur{\'e}, Aur{\'e}lie and Bellisle, France and Hercberg, Serge and M{\'e}jean, Caroline},
+  title     = {Energy, nutrient and food content of snacks in French adults},
+  journal   = {Nutrition Journal},
+  year      = {2018},
+  volume    = {17},
+  number    = {1},
+  pages     = {33},
+  file      = {:/Users/wangcc.me/pCloud Drive/pCloud Sync/JabRef/pdfpapers/SiHassen2018_Article_EnergyNutrientAndFoodContentOf.pdf:PDF},
+  publisher = {BioMed Central},
+  timestamp = {2020-03-02},
+}
+
+@Article{FayetMoore2017,
+  author          = {Fayet-Moore, Flavia and McConnell, Andrew and Kim, Jean and Mathias, Kevin C.},
+  journal         = {Nutrients},
+  title           = {Identifying Eating Occasion-Based Opportunities to Improve the Overall Diets of Australian Adolescents.},
+  year            = {2017},
+  issn            = {2072-6643},
+  month           = jun,
+  volume          = {9},
+  abstract        = {Adolescents in Australia have a poor dietary intake, leading to large numbers of them being at risk for inadequate intake of micronutrients, and excessive intake of less healthful dietary components. This study examined dietary intakes at multiple eating occasions to identify opportunities for more targeted recommendations and strategies to improve dietary intakes among adolescents. Data from the first 24-h recall of 14-18 years old in the 2011-2012 National Nutrition and Physical Activity Survey were analysed (  = 772). Participant-defined eating occasions were classified as breakfast, lunch, dinner or other eating occasions combined. The mean percent contribution to the total day intake of top shortfall nutrients (calcium, magnesium, vitamin A, iron), discretionary calories, saturated fat, free sugars and sodium, as well as nutrient density, the foods consumed and the percent of consumers at each eating occasion, were calculated. Breakfast had the lowest prevalence of consumers (81%), contributed the least to total daily energy (14.6%) and almost a quarter of daily calcium and iron. Other eating occasions combined contributed 47.5% of free sugars and were top contributors of daily calcium (34.6%) and magnesium (31.7%). Discretionary foods contributed 32.4% of the energy at lunch, and the sodium content at lunch was 415 mg/1000 kJ. Key opportunities identified for adolescents were to increase breakfast consumption, given the high nutrient densities of breakfasts consumed; improve overall lunch quality, particularly the sodium content; promote the intake of milk, fruit and a variety of vegetables at both lunch and dinner; maintain healthful choices at in-between meal eating occasions while focusing on decreasing the intake of discretionary foods.},
+  citation-subset = {IM},
+  completed       = {2018-03-19},
+  country         = {Switzerland},
+  doi             = {10.3390/nu9060608},
+  file            = {:Refpdf/nutrients-09-00608-v2.pdf:PDF},
+  issn-linking    = {2072-6643},
+  issue           = {6},
+  keywords        = {Adolescent; Australia; Breakfast; Diet, standards; Eating; Energy Intake; Feeding Behavior; Female; Humans; Lunch; Male; Meals; Nutrition Surveys; Nutritional Status; Australian diets; adolescents; dietary quality; discretionary energy; eating occasions; food intake; food-based recommendations; meal patterns; nutrient intake; shortfall nutrients},
+  nlm-id          = {101521595},
+  owner           = {NLM},
+  pii             = {E608},
+  pmc             = {PMC5490587},
+  pmid            = {28613261},
+  pubmodel        = {Electronic},
+  pubstate        = {epublish},
+  revised         = {2018-11-13},
+  timestamp       = {2021-03-02},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
