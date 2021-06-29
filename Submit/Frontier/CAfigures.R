@@ -493,11 +493,26 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
 
 
 
+# generate the supplementary contingency table
 
 
+load("../CA-NDNSRP/HFood.Rdata")
+load("../CA-NDNSRP/TFood.Rdata")
+Allfood <- rbind(HFood, TFood)
 
 
+freqtab <- xtabs(~Allfood$mfgLab + Allfood$MealTimeSlot)
 
+freqtab
+
+library(janitor)
+
+Allfood %>% tabyl(mfgLab, MealTimeSlot) %>%
+  adorn_totals(c("row", "col")) %>%
+  adorn_percentages("row") %>% 
+  adorn_pct_formatting(rounding = "half up", digits = 2) %>%
+  adorn_ns() %>% 
+  knitr::kable()
 
 
 

@@ -81,7 +81,7 @@
   {}%
   {\par}
 % For Pandoc 2.11+
-\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
  {% don't indent paragraphs
   \setlength{\parindent}{0pt}
   % turn on hanging indent if param 1 is 1
@@ -95,8 +95,11 @@
 \usepackage{calc} % for calculating minipage widths
 \newcommand{\CSLBlock}[1]{#1\hfill\break}
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
 
 
 \def\Authors{
@@ -208,23 +211,28 @@ be found in the previously published official study reports (Bates et
 al., 2014; Roberts et al., 2018). The NDNS-RP, funded by Public Health
 England and the UK Food Standards Agency, is registered with the ISRTCN
 registry under study ID ISRCTN17261407 and received ethical approval
-from the Oxfordshire Research Ethics Committee. A four-day food diary
-method was used in the NDNS RP to collect the detailed food items and
-their time of consumption from participants. Comparison between the food
-diary method and a repeated 24-hour recall questionnaire was performed
-in a subset of study sample prior to the launch of the NDNS RP in 2008
-and found that they were similar in terms of response rate as well as
-the ability to collect correct nutrition intake data. And the four-day
-food diary methos was adopted because it is considered to be more
-flexible and adaptable to cover wide population age range in the survey.
-More details can be found in the Appendix A of the official NDNS RP
-study report (Bates et al., 2014; Roberts et al., 2018). Furthermore,
-the same food diary methods is actually used in large studies conducted
-in the UK, such as the the MRC National Survey of Health and Development
-(NSHD) (1946 British Birth Cohort) (Price et al., 1997), the EPIC
-Norfolk Study (Bingham et al., 2001), the UK Women's Cohort Study in
-Leeds (Cade et al., 2004), and the Avon Longitudinal Study of Parents
-and Children (ALSPAC) cohort (Glynn et al., 2005).
+from the Oxfordshire Research Ethics Committee.
+
+A four-day food diary method was used in the NDNS RP to collect the
+detailed food items and their time of consumption from participants.
+Comparison between the food diary method and a repeated 24-hour recall
+questionnaire was performed in a subset of study sample prior to the
+launch of the NDNS RP in 2008 and found that they were similar in terms
+of response rate as well as the ability to collect correct nutrition
+intake data. And the four-day food diary method was adopted because it
+is considered to be more flexible and adaptable to cover wide population
+age range in the survey. More details can be found in the Appendix A of
+the official NDNS RP study report (Bates et al., 2014; Roberts et al.,
+2018). Furthermore, the same food diary methods is actually used in
+large studies conducted in the UK, such as the the MRC National Survey
+of Health and Development (NSHD) (1946 British Birth Cohort) (Price et
+al., 1997), the EPIC Norfolk Study (Bingham et al., 2001), the UK
+Women's Cohort Study in Leeds (Cade et al., 2004), and the Avon
+Longitudinal Study of Parents and Children (ALSPAC) cohort (Glynn et
+al., 2005). Another validation study of the food records against
+double-labelled water has also been undertaken among a subset of NDNS
+participants. Full results of the analysis have been reported in
+Appendix X of the official survey report (Lennox et al.).
 
 In the food diary recordings, time of the day was categorized into 7
 slots: 6-9 am, 9-12 noon, 12-2 pm, 2-5 pm, 5-8 pm, 8-10 pm and 10 pm - 6
@@ -263,34 +271,42 @@ inertia) of the contingency table. Biplots that graphically show the
 association between time of day and food groups were derived for all
 adults and separately according to their diabetes status. CA is a
 statistical technique to explore relationships between categorical
-variables in a two-dimensional contingency table. In the current
-analysis context, CA is the technique to flag up those food groups that
-have a similar or differed ``profile'' among many categories. The
-``profile'' means the relative frequency of the consumption of one food
-across different time in the day (or, symmetrically, the relative
-frequency of consumption of different foods at one specific time
-period). One simple example is that if about 77.8\% of all foods were
-consumed during the day time (earlier than 8 pm), but only 23.5\% of
-beer consumption were recorded during the day time, then we say beer has
-a time ``profile'' different from the average food profile. CA can
-produce biplots to visually show the chi-square deviation (inertia) of
-food (and time) profiles from the average profile. These biplots use the
-first two most informative dimensions to show the inertia of the
-contingency table. The horizontal axis of the biplot represents the
-direction along which the contingency table rows and columns show their
-greatest deviations. The vertical axis represents the direction,
-perpendicular to the first, having the second largest deviations. There
+variables in a two-dimensional contingency table.
+
+In the current analysis context, CA was used as a tool to visually
+depict the relationship between food groups and time of consumption. CA
+was the technique to flag up those food groups that have a similar or
+different ``profile'' across time categories or, symmetrically, those
+times of day that have a similar or different ``profile'' across food
+groups. In particular ``profile'' indicates the relative frequency of
+the consumption of one food across different time in the day (or,
+symmetrically, the relative frequency of consumption of different foods
+at one specific time period) and what CA measures are its departure from
+the average food (or time of day) profile. One simple example is that if
+about 77.8\% of all foods were consumed during the daytime (earlier than
+8 pm), but only 23.5\% of beer consumption were recorded during the
+daytime, then we say beer has a time ``profile'' different from the
+average food profile with respect to time of day of consumption and, in
+particular, beer is associated to evening/night consumption. CA can
+produce biplots to visually show the the \(\chi^2\) deviation of food
+(and time) profiles from the average profile, measured by the relative
+frequencies. These biplots use the first two most informative dimensions
+to show the inertia of the contingency table. The horizontal axis of the
+biplot represents the direction along which the contingency table rows
+and columns show their greatest deviations from the average row or
+column profile. The vertical axis represents the direction,
+perpendicular to the first, having the second-largest deviations. There
 are two percentage labels for each axis which indicate how much of the
 total inertia were explained along that axis. The sum of the two
 percentages is lower than 100\%, the remaining inertia cannot be shown
 when reducing to 2 dimensions. The origin in each biplot is the average
 profile of all points in the plot, while the length of the vector from
-origin to each profile point represents its deviation from the average
-profile. The distance between row (food) and column (time slots) profile
-points and the direction in which they lie away from the origin is
-indicating that they are associated with each other. The potential
-association is greater if points are located in similar directions and
-away from the origin.
+the origin to each profile point represents its deviation from the
+average profile. The distance between row (food) and column (time slots)
+profile points and the direction in which they lie away from the origin
+is indicating how they are associated with each other. The potential
+association is greater if 1) points are located in similar directions
+away from the origin and 2) the further they are from the origin.
 
 To account for the hierarchical structure of the data (food recorded by
 the same individuals who lived within the same area/sampling units) and
@@ -321,12 +337,13 @@ current smokers, 24.3 \% were past smokers. The average body mass index
 (BMI) was 27.7 kg/m\(^2\) (SD = 5.41). Among the food recordings
 collected (n = 749026), 56.9\% were recorded during traditional
 breakfast (6 am - 9 am: 14.3\%), lunch (12 noon - 2 pm: 18.5\%), or
-dinner (5 pm - 8 pm: 24.1\%) time slots. Table 1. shows the top 37 food
-groups that contributed to 90\% of the total calories consumed by adults
-in NDNS RP. These food groups accounted for 478028 of the total diary
-entries (63.8 \%). The random process split the whole set of food
-recordings into a hypothesis generating dataset of 374682 and a testing
-dataset of 374344 entries.
+dinner (5 pm - 8 pm: 24.1\%) time slots, more details can be found in
+Supplementary Table S1. Table 1. shows the top 37 food groups that
+contributed to 90\% of the total calories consumed by adults in NDNS RP.
+These food groups accounted for 478028 of the total diary entries (63.8
+\%). The random process split the whole set of food recordings into a
+hypothesis generating dataset of 374682 and a testing dataset of 374344
+entries.
 
 Figure 1-5 present the CA biplots that visually summarize the
 associations between 60 food groups and the time of their consumption in
@@ -337,7 +354,7 @@ reflects 15.3 \% of the same relationship. Therefore, a total of 84.2 \%
 of the inertia between food and time were captured in this figure which
 shows a visual summary of how those two categorical variables are
 related. Specifically, time slots later than 8 pm are shown in the upper
-side of the plot closer to alcoholic products (beers etc.) or highly
+side of the plot closer to alcoholic products or highly
 processed/energy-dense foods (sugar confectioneries, chocolates,
 biscuits, regular softdrinks, ice cream, crisps); times earlier than
 noon appear in the left hand side together with typical breakfast foods
@@ -417,21 +434,21 @@ to influence fasting glucose levels and glycaemic response to subsequent
 meals in the morning. (Wolever et al., 1988) One prospective study
 reported women who ate later than 9pm had 1.51 times (95\% CI 1.16 to
 1.93) higher 5-year risk of developing prediabetes/diabetes than those
-having their time of last eating episode between 16:00 and 21:00.
-(Faerch et al., 2019) More recently, a randomized controlled trial
-indicated that consuming carbohydrates at dinner irrespective of
-glycaemic index raised postprandial glucose response to breakfast
-producing what is known as a second meal effect (Haldar et al., 2020).
-Similar observation have been made by Nitta and colleagues who observed
-that eating sweet snacks post-dinner worsened glycaemic excursions in
-the evening and at subsequent breakfast (Nitta et al., 2019). Added to
-this is evidence that suggests that the late-night dinners induce
-post-prandial hyperglycemia in patients with type 2 diabetes and that
-interventions at this eating occassions can result in a profound impact
-on post-prandial glycaemia. On the balance of this evidence, targeting
-and improving the timing and quality of foods in evening eating
-occasions provides a unique opportunity to design intervention to those
-who might be at risk of being diabetics.
+having their time of last eating episode between 4 to 9pm. (Faerch et
+al., 2019) More recently, a randomized controlled trial indicated that
+consuming carbohydrates at dinner irrespective of glycaemic index raised
+postprandial glucose response to breakfast producing what is known as a
+second meal effect (Haldar et al., 2020). Similar observation have been
+made by Nitta and colleagues who observed that eating sweet snacks
+post-dinner worsened glycaemic excursions in the evening and at
+subsequent breakfast (Nitta et al., 2019). Added to this is evidence
+that suggests that the late-night dinners induce post-prandial
+hyperglycemia in patients with type 2 diabetes and that interventions at
+this eating occassions can result in a profound impact on post-prandial
+glycaemia. On the balance of this evidence, targeting and improving the
+timing and quality of foods in evening eating occasions provides a
+unique opportunity to design intervention to those who might be at risk
+of being diabetics.
 
 A compelling finding of our study is the observation that diabetes
 patients were found to be potentially controlling their choice of food
@@ -526,6 +543,14 @@ Original data used in this study can be accessed upon request to the UK
 Data Service (\url{https://www.ukdataservice.ac.uk}) for academic usage
 (Study Number: 6533).
 
+\hypertarget{supplementary-table}{%
+\section*{Supplementary Table}\label{supplementary-table}}
+\addcontentsline{toc}{section}{Supplementary Table}
+
+The Supplementary Table for this article can be found online at: xxxx
+
+\newpage
+
 \hypertarget{tables}{%
 \section*{Tables}\label{tables}}
 \addcontentsline{toc}{section}{Tables}
@@ -573,7 +598,7 @@ Data Service (\url{https://www.ukdataservice.ac.uk}) for academic usage
         Puddings                                            & 2291  & 459784.62  & 0.31\%        & 0.96\%   & 88.79\%      \\
         Other Milk Cream                                    & 6605  & 434239.37  & 0.88\%        & 0.91\%   & 89.70\%      \\
         Pork                                                & 1832  & 420503.76  & 0.24\%        & 0.88\%   & 90.58\%     \\\hline
-        \multicolumn{6}{l}{NDNS RP: National Diet and Nutrition Survey. }
+        \multicolumn{6}{l}{NDNS RP: National Diet and Nutrition Survey Rolling Programme. }
     \end{tabular}
         }
 \end{table}
@@ -715,6 +740,14 @@ between breakfast skipping and concomitant late-night-dinner eating with
 metabolic syndrome and proteinuria in the japanese population.
 \emph{Scientifica} 2014.
 
+\leavevmode\hypertarget{ref-Lennoxappx}{}%
+Lennox, A., Bluck, L., Page, P., Pell, D., Cole, D., Ziauddeen, N.,
+Steer, T., Nicholson, S., Goldberg, G., and Prentice, A. Appendix {X}:
+{M}isreporting in the {N}ational {D}iet and {N}utrition {S}urvey
+{R}olling {P}rogramme ({NDNS RP}): Summary of results and their
+interpretation. Available at:
+\url{https://fsa-catalogue2.s3.eu-west-2.amazonaws.com/ndns-appendix-x.pdf}.
+
 \leavevmode\hypertarget{ref-L__2008}{}%
 Lê, S., Josse, J., and Husson, F. (2008). {FactoMineR}: A package for
 multivariate analysis. \emph{Journal of Statistical Software} 25, 1--18.
@@ -729,9 +762,9 @@ et al. (2014). Meal frequency and timing in health and disease.
 
 \leavevmode\hypertarget{ref-MRCElsieWiddowsonLaboratory2018}{}%
 MRC Elsie Widdowson Laboratory, and NatCen Social Research (2018).
-National diet and nutrition survey years 1-8, 2008/09-2015/16 {[}data
-collection{]}.
-doi:\href{https://doi.org//url\%7B10.5255/ukda-sn-6533-11\%7D}{\textbackslash url\{10.5255/ukda-sn-6533-11\}}.
+National {D}iet and {N}utrition {S}urvey {Y}ears 1-8, 2008/09-2015/16
+{[}data collection{]}.
+doi:\href{https://doi.org/10.5255/ukda-sn-6533-11}{10.5255/ukda-sn-6533-11}.
 
 \leavevmode\hypertarget{ref-nakajima2015association}{}%
 Nakajima, K., and Suwa, K. (2015). Association of hyperglycemia in a
@@ -741,8 +774,8 @@ Disorders} 14, 16.
 
 \leavevmode\hypertarget{ref-NDNSdatabase2018}{}%
 NatCen Social Research, MRC Elsie Widdowson Laboratory, Univeristy
-College London. Medical School. (2018). National diet and nutrition
-survey years 1-8, 2008/09-2015/16.
+College London. Medical School. (2018). National {D}iet and {N}utrition
+{S}urvey years 1-8, 2008/09-2015/16.
 
 \leavevmode\hypertarget{ref-Nitta2019}{}%
 Nitta, A., Imai, S., Kajiyama, S., Miyawaki, T., Matsumoto, S., Ozasa,
@@ -835,5 +868,51 @@ Association of night eating habits with metabolic syndrome and its
 components: A longitudinal study. \emph{BMC Public Health} 18, 1366.
 
 \end{CSLReferences}
+
+\newpage
+\begin{landscape}
+
+\hypertarget{section}{%
+\section*{}\label{section}}
+\addcontentsline{toc}{section}{}
+
+\section*{Figure captions}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=21.5cm]{Fig1.jpg}
+\end{center}
+\caption{Biplot of food groups and eating time slots in the total sample in the NDNS RP.}\label{fig:fig1}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=21.5cm]{Fig2.jpg}
+\end{center}
+\caption{Biplot of food groups and eating time slots in non-diabetic participants in the NDNS RP.}\label{fig:fig2}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=21.5cm]{Fig3.jpg}
+\end{center}
+\caption{Biplot of food groups and eating time slots in diabetic participants in the NDNS RP.}\label{fig:fig3}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=21.5cm]{Fig4.jpg}
+\end{center}
+\caption{Biplot of food groups and eating time slots in undiagnosed diabetic participants in the NDNS RP.}\label{fig:fig4}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=21.5cm]{Fig5.jpg}
+\end{center}
+\caption{Biplot of food groups and eating time slots in pre-diabetic participants in the NDNS RP.}\label{fig:fig5}
+\end{figure}
+
+\end{landscape}
 
 \end{document}
