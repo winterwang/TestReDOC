@@ -283,35 +283,35 @@ Crisp               & 1.49 (1.22, 1.82)   & 1.49 (1.21, 1.85)   & 2.21 (0.90. 5.
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig1.jpg}
+\includegraphics[width=21.5cm]{Fig1_big.jpg}
 \end{center}
 \caption{Biplot of food groups and eating time slots in the total sample in the NDNS RP.}\label{fig:fig1}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig2.jpg}
+\includegraphics[width=21.5cm]{Fig2_big.jpg}
 \end{center}
 \caption{Biplot of food groups and eating time slots in non-diabetic participants in the NDNS RP.}\label{fig:fig2}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig3.jpg}
+\includegraphics[width=21.5cm]{Fig3_big.jpg}
 \end{center}
 \caption{Biplot of food groups and eating time slots in diabetic participants in the NDNS RP.}\label{fig:fig3}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig4.jpg}
+\includegraphics[width=21.5cm]{Fig4_big.jpg}
 \end{center}
 \caption{Biplot of food groups and eating time slots in undiagnosed diabetic participants in the NDNS RP.}\label{fig:fig4}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig5.jpg}
+\includegraphics[width=21.5cm]{Fig5_big.jpg}
 \end{center}
 \caption{Biplot of food groups and eating time slots in pre-diabetic participants in the NDNS RP.}\label{fig:fig5}
 \end{figure}

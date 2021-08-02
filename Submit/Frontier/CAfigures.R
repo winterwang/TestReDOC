@@ -22,7 +22,7 @@ Foodhghlght <- c("Puddings",
                  "Reg soft drinks",
                  "Sugar confectionery",
                  "Chocolate",
-                 "Spirits and liqueurs",
+                 # "Spirits and liqueurs",
                  "Beer lager",
                  "Ice cream",
                  "Biscuits",
@@ -102,7 +102,7 @@ ca.plot.df <- make.ca.plot.df(ca.plot,
 ca.plot.df$StrVariable <- ifelse(ca.plot.df$Label %in% Foodhghlght, 
                                  "highlight", ca.plot.df$Variable)
 
-ca.plot.df$Size <- ifelse(ca.plot.df$Variable == "Location", 2, 1)
+ca.plot.df$Size <- ifelse(ca.plot.df$Variable == "Location", 3, 2)
 ca.sum <- summary(ca.fit)
 dim.var.percs <- ca.sum$scree[,"values2"]
 
@@ -116,9 +116,9 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
                                                          diff(range(ca.plot.df$Dim1)) * 0.2)) +
   scale_y_continuous(limits = range(ca.plot.df$Dim2) + c(diff(range(ca.plot.df$Dim2)) * -0.2,
                                                          diff(range(ca.plot.df$Dim2)) * 0.2)) +
-  scale_size(range = c(1.1, 1.6)) +
+  scale_size(range = c(1.8, 1.8)) +
   geom_label_repel(show.legend = TRUE,
-                   max.overlaps = 90,
+                   max.overlaps = 35,
                    segment.alpha = .4, 
                    segment.size = .2,
                    min.segment.length = 0,
@@ -144,16 +144,23 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in diabetic participants in the NDNS RP. ",
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme") +
+       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
   # , caption = "Coordinates in symmetric") +
   theme(plot.caption = element_text(hjust = 0)) 
 
 
 plot(p)
 
-ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig1.jpg", 
-       width = 20, 
-       height = 14, 
+# ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig1_big.jpg", 
+#        width = 20, 
+#        height = 14, 
+#        device = 'jpg', 
+#        dpi = 300, 
+#        units = c("cm"))
+
+ggsave(filename = "Fig1_big.jpg", 
+       width = 28, 
+       height = 20, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
@@ -185,7 +192,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
                                                          diff(range(ca.plot.df$Dim1)) * 0.2)) +
   scale_y_continuous(limits = range(ca.plot.df$Dim2) + c(diff(range(ca.plot.df$Dim2)) * -0.2,
                                                          diff(range(ca.plot.df$Dim2)) * 0.2)) +
-  scale_size(range = c(1.1, 1.6)) +
+  scale_size(range = c(1.8, 1.8)) +
   geom_label_repel(show.legend = TRUE,
                    max.overlaps = 90,
                    segment.alpha = .4, 
@@ -213,7 +220,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
        # labs(title = "Correspondence Analysis of food groups and Time Slots\n in diabetic participants in the NDNS RP. ",
        # labs(title = "Correspondence Analysis of food groups and Time Slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme") +
+       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
   # , caption = "Coordinates in symmetric") +
   theme(plot.caption = element_text(hjust = 0)) #+ 
   # scale_x_reverse() #+
@@ -222,13 +229,18 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
 
 plot(p)
 
-ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig2.jpg", 
-       width = 20, 
-       height = 14, 
+# ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig2.jpg", 
+#        width = 20, 
+#        height = 14, 
+#        device = 'jpg', 
+#        dpi = 300, 
+#        units = c("cm"))
+ggsave(filename = "Fig2_big.jpg", 
+       width = 28, 
+       height = 20, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
-
 # diagnosed DM -------------------------------------------
 
 ca.fit <- ca(DiagDMmatrix) # diagnosed DM
@@ -257,7 +269,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
                                                          diff(range(ca.plot.df$Dim1)) * 0.2)) +
   scale_y_continuous(limits = range(ca.plot.df$Dim2) + c(diff(range(ca.plot.df$Dim2)) * -0.2,
                                                          diff(range(ca.plot.df$Dim2)) * 0.2)) +
-  scale_size(range = c(1.1, 1.6)) +
+  scale_size(range = c(1.8, 1.8)) +
   geom_label_repel(show.legend = TRUE,
                    max.overlaps = 90,
                    segment.alpha = .4, 
@@ -280,21 +292,26 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   labs(title = "Correspondence Analysis of food groups and time slot\n in diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme") +
+       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
   theme(plot.caption = element_text(hjust = 0))  
 
 
 plot(p)
 
-ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig3.jpg", 
-       width = 20, 
-       height = 14, 
+# ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig3.jpg", 
+#        width = 20, 
+#        height = 14, 
+#        device = 'jpg', 
+#        dpi = 300, 
+#        units = c("cm"))
+
+
+ggsave(filename = "Fig3_big.jpg", 
+       width = 28, 
+       height = 20, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
-
-
-
 
 
 
@@ -325,9 +342,9 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
                                                          diff(range(ca.plot.df$Dim1)) * 0.2)) +
   scale_y_continuous(limits = range(ca.plot.df$Dim2) + c(diff(range(ca.plot.df$Dim2)) * -0.2,
                                                          diff(range(ca.plot.df$Dim2)) * 0.2)) +
-  scale_size(range = c(1.1, 1.6)) +
+  scale_size(range = c(1.8, 1.8)) +
   geom_label_repel(show.legend = TRUE,
-                   max.overlaps = 90,
+                   max.overlaps = 27,
                    segment.alpha = .4, 
                    segment.size = .2,
                    min.segment.length = 0,
@@ -348,20 +365,27 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   labs(title = "Correspondence Analysis of food groups and time slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme") +
+       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
   theme(plot.caption = element_text(hjust = 0)) + 
   scale_y_reverse()
 
 
 plot(p)
 
-ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig4.jpg", 
-       width = 20, 
-       height = 14, 
+# ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig4.jpg", 
+#        width = 20, 
+#        height = 14, 
+#        device = 'jpg', 
+#        dpi = 300, 
+#        units = c("cm"))
+# 
+
+ggsave(filename = "Fig4_big.jpg", 
+       width = 28, 
+       height = 20, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
-
 
 # Pre-diabetes -------------------------------------
 ca.fit <- ca(preDiagDMmatrix) # pre-diabetes
@@ -390,9 +414,9 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
                                                          diff(range(ca.plot.df$Dim1)) * 0.2)) +
   scale_y_continuous(limits = range(ca.plot.df$Dim2) + c(diff(range(ca.plot.df$Dim2)) * -0.2,
                                                          diff(range(ca.plot.df$Dim2)) * 0.2)) +
-  scale_size(range = c(1.1, 1.6)) +
+  scale_size(range = c(1.8, 1.8)) +
   geom_label_repel(show.legend = TRUE,
-                   max.overlaps = 90,
+                   max.overlaps = 27,
                    segment.alpha = .4, 
                    segment.size = .2,
                    min.segment.length = 0,
@@ -413,18 +437,27 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   labs(title = "Correspondence Analysis of food groups and time slots\n in pre-diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme") +
+       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
   theme(plot.caption = element_text(hjust = 0))  
 
 
 plot(p)
 
-ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig5.jpg", 
-       width = 20, 
-       height = 14, 
+# ggsave(filename = "Submit/Frontier/ResponsetoReviewer1/Fig5.jpg", 
+#        width = 20, 
+#        height = 14, 
+#        device = 'jpg', 
+#        dpi = 300, 
+#        units = c("cm"))
+
+
+ggsave(filename = "Fig5_big.jpg", 
+       width = 28, 
+       height = 20, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
+
 
 # DM status unknown ------------------------------------- 
 ca.fit <- ca(MissDMmatrix) #unknown

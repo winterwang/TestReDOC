@@ -1,4 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL Manu_article_V1.tex   Wed Jul 28 23:23:48 2021
+%DIF ADD Manu_article_V2.tex   Tue Aug  3 00:26:24 2021
 % This is just an example/guide for you to refer to when submitting manuscripts to Frontiers, it is not mandatory to use Frontiers .cls files nor frontiers.tex  %
 % This will only generate the Manuscript, the final article will be typeset by Frontiers after acceptance.
 %                                              %
@@ -134,7 +137,71 @@ Health and Infectious Diseases, University of Rome La Sapienza\\Piazzale
 Aldo Moro
 5\\Rome, 00185 Italy}\def\corrEmail{\href{mailto:Luigi.Palla@uniroma1.it}{\nolinkurl{Luigi.Palla@uniroma1.it}}}
   
-
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 \onecolumn
@@ -477,14 +544,14 @@ alcoholic beverages are responsible for large portion of energy
 consumption at night in other populations (Hassen et al., 2018).
 
 However, an important limitation in this study is the cross-sectional
-study design. Our findings do not implicate whether it would be better
+study design. \DIFaddbegin \DIFadd{Our findings do not implicate whether it would be better
 to consume sweets or desserts later or earlier in the day, which should
 be clarified in intervention designed studies in the future. Some
 findings, such as beers turn to be more consumed at night, are already
 known and may not be surprising. However, the fact that some of the
 unhealthy food were more likely to be consumed at night and even more
 frequently among undiagnosed diabetic participants is alarming.
-Moreover, The inability to assess the temporal relationship between
+Moreover, }\DIFaddend The inability to assess the temporal relationship between
 timing of food intake and diabetes status means that a cause-effect
 relationship between time of unhealthy food intake and diabetes status
 cannot be established. Hence, further prospective studies are warranted
@@ -888,36 +955,46 @@ components: A longitudinal study. \emph{BMC Public Health} 18, 1366.
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig1_big.jpg}
-\end{center}
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=21.5cm]{Fig1.jpg}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=21.5cm]{Fig1_big.jpg}
+\DIFaddendFL \end{center}
 \caption{Biplot of food groups and eating time slots in the total sample in the NDNS RP.}\label{fig:fig1}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig2_big.jpg}
-\end{center}
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=21.5cm]{Fig2.jpg}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=21.5cm]{Fig2_big.jpg}
+\DIFaddendFL \end{center}
 \caption{Biplot of food groups and eating time slots in non-diabetic participants in the NDNS RP.}\label{fig:fig2}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig3_big.jpg}
-\end{center}
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=21.5cm]{Fig3.jpg}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=21.5cm]{Fig3_big.jpg}
+\DIFaddendFL \end{center}
 \caption{Biplot of food groups and eating time slots in diabetic participants in the NDNS RP.}\label{fig:fig3}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig4_big.jpg}
-\end{center}
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=21.5cm]{Fig4.jpg}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=21.5cm]{Fig4_big.jpg}
+\DIFaddendFL \end{center}
 \caption{Biplot of food groups and eating time slots in undiagnosed diabetic participants in the NDNS RP.}\label{fig:fig4}
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=21.5cm]{Fig5_big.jpg}
-\end{center}
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=21.5cm]{Fig5.jpg}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=21.5cm]{Fig5_big.jpg}
+\DIFaddendFL \end{center}
 \caption{Biplot of food groups and eating time slots in pre-diabetic participants in the NDNS RP.}\label{fig:fig5}
 \end{figure}
 
