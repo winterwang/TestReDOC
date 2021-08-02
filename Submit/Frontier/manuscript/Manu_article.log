@@ -1,68 +1,68 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  22 JUN 2021 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.2)  2 AUG 2021 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Manu_article.tex
 (./Manu_article.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (./frontiersSCNS.cls
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-07-12> (./frontiersSCNS.cls
 Document Class: frontiersSCNS 2016/11/10 2.6
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/crop/crop.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/crop/crop.sty
 Package: crop 2017/11/19 1.10 crop marks (mf)
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \stockwidth=\dimen138
 \stockheight=\dimen139
 \CROP@index=\count182
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \CROP@offset=\count183
 Package crop Info: Local config file crop.cfg used on input line 622.
-(/home/chao/.TinyTeX/texmf-dist/tex/xelatex/xetexconfig/crop.cfg)) (/home/chao/
-.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/xelatex/xetexconfig/crop.cfg)) (/Us
+ers/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip47
 For additional information on amsmath, use the `?' option.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen142
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen143
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count184
@@ -102,7 +102,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen151
 \ar@mcellbox=\box52
@@ -111,16 +111,16 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \extratabsurround=\skip50
 \backup@length=\skip51
 \ar@cellbox=\box53
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/sttools/flushend.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/sttools/flushend.sty
 Package: flushend 2020/10/16 v3.5 Balancing columns in twocolumn mode
 \flushend@@lastskip@a=\skip52
 \flushend@@lastskip@b=\skip53
@@ -140,15 +140,14 @@ Package: flushend 2020/10/16 v3.5 Balancing columns in twocolumn mode
 \hold@viper=\box59
 \atColsBreak=\toks25
 \atColsEnd=\toks26
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count198
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/sttools/stfloats.sty
-Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
-ings
+)) (./stfloats.sty
+Package: stfloats 1999/10/22
 \@dblbotnum=\count199
 \c@dblbotnumber=\count266
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -159,30 +158,30 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip56
 \thm@headsep=\skip57
 \dth@everypar=\toks32
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/changepage/chngpage.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/changepage/chngpage.sty
 Package: chngpage 2009/10/20 v1.2b change page layout
 \c@cp@cnt=\count267
 \c@cp@tempcnt=\count268
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/psnfss/times.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/datetime/datetime.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/chao/.Ti
-nyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users
+/chao/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks33
 \XKV@tempa@toks=\toks34
 )
 \XKV@depth=\count269
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count270
 ))
@@ -195,7 +194,9 @@ Package: fcnumparser 2017/06/15
 \@tmpstrctr=\count277
 \@DT@loopN=\count278
 \@DT@X=\count279
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/datetime/datetime-defaults.st
+y
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count280
@@ -217,17 +218,17 @@ put line 308.
 \dayofweek=\count294
 \dt@a=\toks35
 \dt@b=\toks36
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))) (/home/chao/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+))) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
@@ -242,11 +243,11 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen158
 \captionmargin@=\dimen159
@@ -261,7 +262,7 @@ Package caption Info: Document class w/o caption stuff detected.
 )
 \c@caption@flags=\count295
 \c@continuedfloat=\count296
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 )
 \c@section=\count297
@@ -278,55 +279,59 @@ Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 \rotdimen=\dimen165
 \tempdime=\dimen166
 \temptbox=\box60
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip63
 \bibsep=\skip64
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count305
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/url/url.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/home/chao/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.s
+ty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen167
 \Hy@linkcounter=\count306
 \Hy@pagecounter=\count307
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-langpatches
+.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
-) (/home/chao/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count308
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -341,25 +346,25 @@ LaTeX Info: Redefining \href on input line 4715.
 \c@Hy@tempcnt=\count309
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen168
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count310
 \Field@Width=\dimen169
 \Fld@charsize=\dimen170
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -368,25 +373,29 @@ package with kernel methods
 \c@Hfootnote=\count313
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
 \Fld@listcount=\count314
 \c@bookmark@seq@number=\count315
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck
+.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-(/home/chao/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter
+.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip65
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/lineno/lineno.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count316
 \output=\toks37
@@ -403,7 +412,7 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen175
 \bframebox=\box61
 LaTeX Info: Redefining \\ on input line 3056.
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
 \MT@toks=\toks38
 \MT@count=\count323
@@ -411,7 +420,9 @@ LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen176
 LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
 \MT@listname@count=\count324
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype-pdftex.de
+f
 File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -419,11 +430,11 @@ LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip66
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
-)) (/home/chao/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
+)) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count325
 \FV@InFile=\read2
@@ -431,14 +442,14 @@ Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
 \c@FancyVerbLine=\count326
 \FV@StepNumber=\count327
 \FV@OutFile=\write3
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/cite/cite.sty
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 \csllabelwidth=\skip67
 \cslhangindent=\skip68
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count328
 \calc@Bcount=\count329
@@ -453,10 +464,12 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 36.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
+f
+File: l3backend-pdftex.def 2021-07-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box63
 ) (./Manu_article.aux)
@@ -480,29 +493,33 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
+y
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package crop Info: requested driver: `' on input line 136.
 Package crop Info: detected driver: `pdftex' on input line 136.
 Package crop Info: using `pdftex' graphics driver on input line 136.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/fmtcount/fc-english.def
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 136.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/home/chao/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestri
+ng.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count332
@@ -526,12 +543,12 @@ LaTeX Info: Redefining \showhyphens on input line 136.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 52.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/psnfss/ot1phv.fd
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -553,27 +570,27 @@ Overfull \hbox (8.53581pt too wide) in paragraph at lines 152--152
 [][] 
  []
 
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 152
 .
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 152
 .
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/home/chao/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+) (/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
 52.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(/Users/chao/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -589,8 +606,8 @@ Underfull \hbox (badness 10000) detected at line 152
 
 
 
-{/home/chao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo1.pdf
->]
+{/Users/chao/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./l
+ogo1.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 257.
 
@@ -616,14 +633,6 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 [7]
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 6
-26.
-(/home/chao/.TinyTeX/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 626.
-
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 [8]
@@ -639,10 +648,10 @@ Package rerunfilecheck Info: File `Manu_article.out' has not changed.
 (rerunfilecheck)             Checksum: 544CE6DB67DCFEE9DC059FBC7DF2D6E7;1366.
  ) 
 Here is how much of TeX's memory you used:
- 15637 strings out of 480517
- 236238 string characters out of 5900194
- 607550 words of memory out of 5000000
- 32678 multiletter control sequences out of 15000+600000
+ 15613 strings out of 480502
+ 237568 string characters out of 5899005
+ 605574 words of memory out of 5000000
+ 32670 multiletter control sequences out of 15000+600000
  446244 words of font info for 250 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
  87i,10n,131p,2247b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -679,18 +688,19 @@ pdfTeX warning (dest): name{section*.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{section*.1} has been referenced but does not exist,
  replaced by a fixed one
 
-{/home/chao/.TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/chao/.TinyTe
-X/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/chao/.TinyTeX/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/chao/.TinyTeX/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/chao/.TinyTeX/texmf-dist/font
-s/type1/urw/courier/ucrr8a.pfb></home/chao/.TinyTeX/texmf-dist/fonts/type1/urw/
-helvetic/uhvb8a.pfb></home/chao/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uh
-vbo8a.pfb></home/chao/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
-/home/chao/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></home/chao
-/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/chao/.TinyTeX/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></home/chao/.TinyTeX/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on Manu_article.pdf (9 pages, 186304 bytes).
+{/Users/chao/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/cha
+o/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/
+chao/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></Users
+/chao/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Us
+ers/chao/Library/TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></Users/
+chao/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/cha
+o/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></Users/chao/
+Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/chao/Lib
+rary/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></Users/chao/Libra
+ry/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/chao/Library/Tin
+yTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/chao/Library/TinyTeX/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Manu_article.pdf (9 pages, 185532 bytes).
 PDF statistics:
  227 PDF objects out of 1000 (max. 8388607)
  190 compressed objects within 2 object streams
