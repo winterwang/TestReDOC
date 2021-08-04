@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.2)  4 AUG 2021 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.2)  4 AUG 2021 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -763,27 +763,27 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 <Fig1_big.jpg, id=195, 3319.40125pt x 2370.8575pt>
 File: Fig1_big.jpg Graphic file (type jpg)
 <use Fig1_big.jpg>
-Package pdftex.def Info: Fig1_big.jpg  used on input line 1036.
+Package pdftex.def Info: Fig1_big.jpg  used on input line 1039.
 (pdftex.def)             Requested size: 611.73424pt x 436.90149pt.
 <Fig2_big.jpg, id=196, 3319.40125pt x 2370.8575pt>
 File: Fig2_big.jpg Graphic file (type jpg)
 <use Fig2_big.jpg>
-Package pdftex.def Info: Fig2_big.jpg  used on input line 1045.
+Package pdftex.def Info: Fig2_big.jpg  used on input line 1048.
 (pdftex.def)             Requested size: 611.73424pt x 436.90149pt.
 <Fig3_big.jpg, id=197, 3319.40125pt x 2370.8575pt>
 File: Fig3_big.jpg Graphic file (type jpg)
 <use Fig3_big.jpg>
-Package pdftex.def Info: Fig3_big.jpg  used on input line 1054.
+Package pdftex.def Info: Fig3_big.jpg  used on input line 1057.
 (pdftex.def)             Requested size: 611.73424pt x 436.90149pt.
 <Fig4_big.jpg, id=198, 3319.40125pt x 2370.8575pt>
 File: Fig4_big.jpg Graphic file (type jpg)
 <use Fig4_big.jpg>
-Package pdftex.def Info: Fig4_big.jpg  used on input line 1063.
+Package pdftex.def Info: Fig4_big.jpg  used on input line 1066.
 (pdftex.def)             Requested size: 611.73424pt x 436.90149pt.
 <Fig5_big.jpg, id=199, 3319.40125pt x 2370.8575pt>
 File: Fig5_big.jpg Graphic file (type jpg)
 <use Fig5_big.jpg>
-Package pdftex.def Info: Fig5_big.jpg  used on input line 1072.
+Package pdftex.def Info: Fig5_big.jpg  used on input line 1075.
 (pdftex.def)             Requested size: 611.73424pt x 436.90149pt.
 
 Overfull \hbox (178.0pt too wide) has occurred while \output is active
@@ -912,7 +912,7 @@ Package rerunfilecheck Info: File `Manu_diff_v2.out' has not changed.
 Here is how much of TeX's memory you used:
  15896 strings out of 480502
  241572 string characters out of 5899005
- 611902 words of memory out of 5000000
+ 614902 words of memory out of 5000000
  32892 multiletter control sequences out of 15000+600000
  447044 words of font info for 260 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
@@ -970,7 +970,7 @@ fb></Users/chao/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 Users/chao/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/
 chao/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/chao/L
 ibrary/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Manu_diff_v2.pdf (17 pages, 3169597 bytes).
+Output written on Manu_diff_v2.pdf (17 pages, 3169788 bytes).
 PDF statistics:
  310 PDF objects out of 1000 (max. 8388607)
  255 compressed objects within 3 object streams
