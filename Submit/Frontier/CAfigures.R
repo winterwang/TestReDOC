@@ -138,13 +138,13 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
                                         size = 0), legend.position = "none") +
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in participants without DM information.",
-  labs(title = "Correspondence Analysis of food groups and time slots\n in the total sample of the NDNS RP. ",
+  labs(title = "Correspondence analysis of food groups and time slots\n in the total sample in the NDNS RP. ",
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in pre-diabetic participants in the NDNS RP. ",
   # labs(title = "Correspondence analysis of food groups and Time Slots\n in non-diabetic participants in the NDNS RP. ",
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in diabetic participants in the NDNS RP. ",
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   # , caption = "Coordinates in symmetric") +
   theme(plot.caption = element_text(hjust = 0)) 
 
@@ -158,12 +158,13 @@ plot(p)
 #        dpi = 300, 
 #        units = c("cm"))
 
-ggsave(filename = "Fig1_big.jpg", 
+ggsave(filename = "./Submit/Frontier/proofreading/Fig1_publish.jpg", 
        width = 28, 
-       height = 20, 
+       height = 25, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
+
 # Non DM --------------------------
 
 ca.fit <- ca(nonDiagDMmatrix) # non-diagnosed DM
@@ -216,11 +217,11 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in participants without DM information.",
   # labs(title = "Correspondence Analysis of food groups and 7 time slots\n in the total sample of the NDNS RP. ",
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in pre-diabetic participants in the NDNS RP. ",
-       labs(title = "Correspondence analysis of food groups and Time Slots\n in non-diabetic participants in the NDNS RP. ",
+       labs(title = "Correspondence analysis of food groups and time slots\n in non-diabetic participants in the NDNS RP. ",
        # labs(title = "Correspondence Analysis of food groups and Time Slots\n in diabetic participants in the NDNS RP. ",
        # labs(title = "Correspondence Analysis of food groups and Time Slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   # , caption = "Coordinates in symmetric") +
   theme(plot.caption = element_text(hjust = 0)) #+ 
   # scale_x_reverse() #+
@@ -235,12 +236,15 @@ plot(p)
 #        device = 'jpg', 
 #        dpi = 300, 
 #        units = c("cm"))
-ggsave(filename = "Fig2_big.jpg", 
+ggsave(filename = "./Submit/Frontier/proofreading/Fig2_publish.jpg", 
        width = 28, 
-       height = 20, 
+       height = 25, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
+
+
+
 # diagnosed DM -------------------------------------------
 
 ca.fit <- ca(DiagDMmatrix) # diagnosed DM
@@ -290,9 +294,9 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
         panel.background = element_rect(fill = "white", 
                                         size = 0), legend.position = "none") +
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
-  labs(title = "Correspondence Analysis of food groups and time slot\n in diabetic participants in the NDNS RP. ",
+  labs(title = "Correspondence analysis of food groups and time slot\n in diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   theme(plot.caption = element_text(hjust = 0))  
 
 
@@ -306,9 +310,9 @@ plot(p)
 #        units = c("cm"))
 
 
-ggsave(filename = "Fig3_big.jpg", 
+ggsave(filename = "./Submit/Frontier/proofreading/Fig3_publish.jpg", 
        width = 28, 
-       height = 20, 
+       height = 25, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
@@ -363,9 +367,9 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
         panel.background = element_rect(fill = "white", 
                                         size = 0), legend.position = "none") +
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
-  labs(title = "Correspondence Analysis of food groups and time slots\n in undiagnosed diabetics participants in the NDNS RP. ",
+  labs(title = "Correspondence analysis of food groups and time slots\n in undiagnosed diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   theme(plot.caption = element_text(hjust = 0)) + 
   scale_y_reverse()
 
@@ -380,9 +384,9 @@ plot(p)
 #        units = c("cm"))
 # 
 
-ggsave(filename = "Fig4_big.jpg", 
+ggsave(filename = "./Submit/Frontier/proofreading/Fig4_publish.jpg", 
        width = 28, 
-       height = 20, 
+       height = 25, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
@@ -435,9 +439,9 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
         panel.background = element_rect(fill = "white", 
                                         size = 0), legend.position = "none") +
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
-  labs(title = "Correspondence Analysis of food groups and time slots\n in pre-diabetic participants in the NDNS RP. ",
+  labs(title = "Correspondence analysis of food groups and time slots\n in pre-diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Coordinates in symmetric\nAbbreviation: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme\nGreen: food groups; Blue: time slots; Red: foods chosen to be tested.") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   theme(plot.caption = element_text(hjust = 0))  
 
 
@@ -451,9 +455,9 @@ plot(p)
 #        units = c("cm"))
 
 
-ggsave(filename = "Fig5_big.jpg", 
+ggsave(filename = "./Submit/Frontier/proofreading/Fig5_publish.jpg", 
        width = 28, 
-       height = 20, 
+       height = 25, 
        device = 'jpg', 
        dpi = 300, 
        units = c("cm"))
