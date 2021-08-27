@@ -144,7 +144,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in diabetic participants in the NDNS RP. ",
   # labs(title = "Correspondence Analysis of food groups and Time Slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   # , caption = "Coordinates in symmetric") +
   theme(plot.caption = element_text(hjust = 0)) 
 
@@ -221,7 +221,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
        # labs(title = "Correspondence Analysis of food groups and Time Slots\n in diabetic participants in the NDNS RP. ",
        # labs(title = "Correspondence Analysis of food groups and Time Slots\n in undiagnosed diabetics participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   # , caption = "Coordinates in symmetric") +
   theme(plot.caption = element_text(hjust = 0)) #+ 
   # scale_x_reverse() #+
@@ -296,7 +296,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   labs(title = "Correspondence analysis of food groups and time slot\n in diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   theme(plot.caption = element_text(hjust = 0))  
 
 
@@ -369,7 +369,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   labs(title = "Correspondence analysis of food groups and time slots\n in undiagnosed diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nThe coordinates of the y-axis have been flipped to facilitate comparison with the other subgroups.\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   theme(plot.caption = element_text(hjust = 0)) + 
   scale_y_reverse()
 
@@ -441,7 +441,7 @@ p <- ggplot(ca.plot.df, aes(x = Dim1, y = Dim2,
   scale_color_manual(values = c("#4daf4a", "#e41a1c", "#377eb8")) + 
   labs(title = "Correspondence analysis of food groups and time slots\n in pre-diabetic participants in the NDNS RP. ",
        colour = NULL, shape = NULL,
-       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nCoordinates in symmetric\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
+       caption = "Green dots: food groups; Blue triangles: time slots; Red dots: foods chosen to be tested later in the logistic regression models.\nAbbreviations: \nNDNS RP, National Diet and Nutrition Survery Rolling Programme; Veg: vegetable; Polyunsatu: poly unsaturated; Oth: other; \nWMeal: whole meal; HiFi: high fiber; LoFi: low fiber") +
   theme(plot.caption = element_text(hjust = 0))  
 
 
